@@ -1,25 +1,11 @@
-/*!
-  * Bootstrap v5.3.2 (https://getbootstrap.com/)
-  * Copyright 2011-2023 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
-  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
-  */
+
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
   typeof define === 'function' && define.amd ? define(factory) :
   (global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.bootstrap = factory());
 })(this, (function () { 'use strict';
 
-  /**
-   * --------------------------------------------------------------------------
-   * Bootstrap dom/data.js
-   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
-   * --------------------------------------------------------------------------
-   */
-
-  /**
-   * Constants
-   */
-
+ 
   const elementMap = new Map();
   const Data = {
     set(element, key, instance) {
@@ -4845,7 +4831,7 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap util/-factory.js
+   * Bootstrap util/template-factory.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -4855,7 +4841,7 @@
    * Constants
    */
 
-  const NAME$5 = 'Factory';
+  const NAME$5 = 'TemplateFactory';
   const Default$4 = {
     allowList: DefaultAllowlist,
     content: {},
@@ -4864,7 +4850,7 @@
     html: false,
     sanitize: true,
     sanitizeFn: null,
-    : '<div></div>'
+    template: '<div></div>'
   };
   const DefaultType$4 = {
     allowList: 'object',
@@ -4873,7 +4859,7 @@
     html: 'boolean',
     sanitize: 'boolean',
     sanitizeFn: '(null|function)',
-    : 'string'
+    template: 'string'
   };
   const DefaultContentType = {
     entry: '(string|element|function|null)',
@@ -4884,7 +4870,7 @@
    * Class definition
    */
 
-  class Factory extends Config {
+  class TemplateFactory extends Config {
     constructor(config) {
       super();
       this._config = this._getConfig(config);
@@ -4917,17 +4903,17 @@
       return this;
     }
     toHtml() {
-      const Wrapper = document.createElement('div');
-      Wrapper.innerHTML = this._maybeSanitize(this._config.);
+      const templateWrapper = document.createElement('div');
+      templateWrapper.innerHTML = this._maybeSanitize(this._config.template);
       for (const [selector, text] of Object.entries(this._config.content)) {
-        this._setContent(Wrapper, text, selector);
+        this._setContent(templateWrapper, text, selector);
       }
-      const  = Wrapper.children[0];
+      const template = templateWrapper.children[0];
       const extraClass = this._resolvePossibleFunction(this._config.extraClass);
       if (extraClass) {
-        .classList.add(...extraClass.split(' '));
+        template.classList.add(...extraClass.split(' '));
       }
-      return ;
+      return template;
     }
 
     // Private
@@ -4943,25 +4929,25 @@
         }, DefaultContentType);
       }
     }
-    _setContent(, content, selector) {
-      const Element = SelectorEngine.findOne(selector, );
-      if (!Element) {
+    _setContent(template, content, selector) {
+      const templateElement = SelectorEngine.findOne(selector, template);
+      if (!templateElement) {
         return;
       }
       content = this._resolvePossibleFunction(content);
       if (!content) {
-        Element.remove();
+        templateElement.remove();
         return;
       }
       if (isElement$1(content)) {
-        this._putElementIn(getElement(content), Element);
+        this._putElementInTemplate(getElement(content), templateElement);
         return;
       }
       if (this._config.html) {
-        Element.innerHTML = this._maybeSanitize(content);
+        templateElement.innerHTML = this._maybeSanitize(content);
         return;
       }
-      Element.textContent = content;
+      templateElement.textContent = content;
     }
     _maybeSanitize(arg) {
       return this._config.sanitize ? sanitizeHtml(arg, this._config.allowList, this._config.sanitizeFn) : arg;
@@ -4969,13 +4955,13 @@
     _resolvePossibleFunction(arg) {
       return execute(arg, [this]);
     }
-    _putElementIn(element, Element) {
+    _putElementInTemplate(element, templateElement) {
       if (this._config.html) {
-        Element.innerHTML = '';
-        Element.append(element);
+        templateElement.innerHTML = '';
+        templateElement.append(element);
         return;
       }
-      Element.textContent = element.textContent;
+      templateElement.textContent = element.textContent;
     }
   }
 
@@ -5035,7 +5021,7 @@
     sanitize: true,
     sanitizeFn: null,
     selector: false,
-    : '<div class="tooltip" role="tooltip">' + '<div class="tooltip-arrow"></div>' + '<div class="tooltip-inner"></div>' + '</div>',
+    template: '<div class="tooltip" role="tooltip">' + '<div class="tooltip-arrow"></div>' + '<div class="tooltip-inner"></div>' + '</div>',
     title: '',
     trigger: 'hover focus'
   };
@@ -5054,7 +5040,7 @@
     sanitize: 'boolean',
     sanitizeFn: '(null|function)',
     selector: '(string|boolean)',
-    : 'string',
+    template: 'string',
     title: '(string|element|function)',
     trigger: 'string'
   };
@@ -5076,7 +5062,7 @@
       this._isHovered = null;
       this._activeTrigger = {};
       this._popper = null;
-      this._Factory = null;
+      this._templateFactory = null;
       this._newContent = null;
 
       // Protected
@@ -5221,12 +5207,12 @@
     }
     _getTipElement() {
       if (!this.tip) {
-        this.tip = this._createTipElement(this._newContent || this._getContentFor());
+        this.tip = this._createTipElement(this._newContent || this._getContentForTemplate());
       }
       return this.tip;
     }
     _createTipElement(content) {
-      const tip = this._getFactory(content).toHtml();
+      const tip = this._getTemplateFactory(content).toHtml();
 
       // TODO: remove this check in v6
       if (!tip) {
@@ -5249,11 +5235,11 @@
         this.show();
       }
     }
-    _getFactory(content) {
-      if (this._Factory) {
-        this._Factory.changeContent(content);
+    _getTemplateFactory(content) {
+      if (this._templateFactory) {
+        this._templateFactory.changeContent(content);
       } else {
-        this._Factory = new Factory({
+        this._templateFactory = new TemplateFactory({
           ...this._config,
           // the `content` var has to be after `this._config`
           // to override config.content in case of popover
@@ -5261,9 +5247,9 @@
           extraClass: this._resolvePossibleFunction(this._config.customClass)
         });
       }
-      return this._Factory;
+      return this._templateFactory;
     }
-    _getContentFor() {
+    _getContentForTemplate() {
       return {
         [SELECTOR_TOOLTIP_INNER]: this._getTitle()
       };
@@ -5511,7 +5497,7 @@
     content: '',
     offset: [0, 8],
     placement: 'right',
-    : '<div class="popover" role="tooltip">' + '<div class="popover-arrow"></div>' + '<h3 class="popover-header"></h3>' + '<div class="popover-body"></div>' + '</div>',
+    template: '<div class="popover" role="tooltip">' + '<div class="popover-arrow"></div>' + '<h3 class="popover-header"></h3>' + '<div class="popover-body"></div>' + '</div>',
     trigger: 'click'
   };
   const DefaultType$2 = {
@@ -5541,7 +5527,7 @@
     }
 
     // Private
-    _getContentFor() {
+    _getContentForTemplate() {
       return {
         [SELECTOR_TITLE]: this._getTitle(),
         [SELECTOR_CONTENT]: this._getContent()

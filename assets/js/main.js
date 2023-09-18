@@ -1,10 +1,4 @@
-/**
-*  Name: Kolab
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
-*  URL: https://bootstrapmade.com/free-bootstrap--corporate-Kolab/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 

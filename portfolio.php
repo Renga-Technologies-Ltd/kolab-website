@@ -46,18 +46,18 @@
       <div class="container d-flex justify-content-between align-items-center">
         <div class="logo">
           <h1 class="text-light">
-            <a href="index.html"><span>Kolab</span></a>
+            <a href="index.php"><span>Kolab</span></a>
           </h1>
           <!-- Uncomment below if you prefer to use an image logo -->
-          <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+          <!-- <a href="index.php"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
         </div>
 
         <nav id="navbar" class="navbar">
           <ul>
-            <li><a class="" href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li><a class="" href="index.php">Home</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="services.php">Services</a></li>
+            <li><a href="contact.php">Contact Us</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
@@ -73,7 +73,7 @@
           <div class="d-flex justify-content-between align-items-center">
             <h2>Our Portfolio</h2>
             <ol>
-              <li><a href="index.html">Home</a></li>
+              <li><a href="index.php">Home</a></li>
               <li>Our Portfolio</li>
             </ol>
           </div>
@@ -118,7 +118,7 @@
                       title="App 1"
                       ><i class="bx bx-plus"></i
                     ></a>
-                    <a href="portfolio-details.html" title="Portfolio Details"
+                    <a href="portfolio-details.php" title="Portfolio Details"
                       ><i class="bx bx-link"></i
                     ></a>
                   </div>
@@ -143,7 +143,7 @@
                       title="Web 3"
                       ><i class="bx bx-plus"></i
                     ></a>
-                    <a href="portfolio-details.html" title="Portfolio Details"
+                    <a href="portfolio-details.php" title="Portfolio Details"
                       ><i class="bx bx-link"></i
                     ></a>
                   </div>
@@ -168,7 +168,7 @@
                       title="App 2"
                       ><i class="bx bx-plus"></i
                     ></a>
-                    <a href="portfolio-details.html" title="Portfolio Details"
+                    <a href="portfolio-details.php" title="Portfolio Details"
                       ><i class="bx bx-link"></i
                     ></a>
                   </div>
@@ -193,7 +193,7 @@
                       title="Card 2"
                       ><i class="bx bx-plus"></i
                     ></a>
-                    <a href="portfolio-details.html" title="Portfolio Details"
+                    <a href="portfolio-details.php" title="Portfolio Details"
                       ><i class="bx bx-link"></i
                     ></a>
                   </div>
@@ -218,7 +218,7 @@
                       title="Web 2"
                       ><i class="bx bx-plus"></i
                     ></a>
-                    <a href="portfolio-details.html" title="Portfolio Details"
+                    <a href="portfolio-details.php" title="Portfolio Details"
                       ><i class="bx bx-link"></i
                     ></a>
                   </div>
@@ -243,7 +243,7 @@
                       title="App 3"
                       ><i class="bx bx-plus"></i
                     ></a>
-                    <a href="portfolio-details.html" title="Portfolio Details"
+                    <a href="portfolio-details.php" title="Portfolio Details"
                       ><i class="bx bx-link"></i
                     ></a>
                   </div>
@@ -268,7 +268,7 @@
                       title="Card 1"
                       ><i class="bx bx-plus"></i
                     ></a>
-                    <a href="portfolio-details.html" title="Portfolio Details"
+                    <a href="portfolio-details.php" title="Portfolio Details"
                       ><i class="bx bx-link"></i
                     ></a>
                   </div>
@@ -293,7 +293,7 @@
                       title="Card 3"
                       ><i class="bx bx-plus"></i
                     ></a>
-                    <a href="portfolio-details.html" title="Portfolio Details"
+                    <a href="portfolio-details.php" title="Portfolio Details"
                       ><i class="bx bx-link"></i
                     ></a>
                   </div>
@@ -318,7 +318,7 @@
                       title="Web 1"
                       ><i class="bx bx-plus"></i
                     ></a>
-                    <a href="portfolio-details.html" title="Portfolio Details"
+                    <a href="portfolio-details.php" title="Portfolio Details"
                       ><i class="bx bx-link"></i
                     ></a>
                   </div>

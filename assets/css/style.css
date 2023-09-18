@@ -24,6 +24,11 @@ a:hover {
   text-decoration: none;
 }
 
+.client-logo {
+  width: 100px;
+  height: 100px;
+}
+
 h1,
 h2,
 h3,

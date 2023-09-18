@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "IT Consultancy",
+    "description": "Expert IT consulting services tailored to your business needs.",
+    "imageUrl": "it-consultancy.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Enterprise Business Solutions",
+    "description": "Comprehensive solutions for enterprises to drive growth and efficiency.",
+    "imageUrl": "enterprise-solutions.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "IT Infrastructure & Security Solutions",
+    "description": "Robust IT infrastructure and security solutions to protect your data.",
+    "imageUrl": "it-security.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Application Development",
+    "description": "Innovative application development services to bring your ideas to life.",
+    "imageUrl": "app-development.jpg"
+  }
+]

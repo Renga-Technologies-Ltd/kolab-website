@@ -78,7 +78,7 @@
                         <br />
                         UNITED ARAB EMIRATES A108 Adam Street <br />
 
-                        <!-- <strong>Phone:</strong> +1 5589 55488 55<br /> -->
+                        <strong>Phone:</strong>+971 54 360 1976<br />
                         <strong>Email:</strong> info@kolab.ae<br />
                     </p>
                 </div>

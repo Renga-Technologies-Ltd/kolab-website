@@ -114,7 +114,7 @@
     <!-- End About Section -->
 
     <!-- ======= Facts Section ======= -->
-    <section class="facts section-bg" data-aos="fade-up">
+    <!-- <section class="facts section-bg" data-aos="fade-up">
       <div class="container">
         <div class="row counters">
           <div class="col-lg-3 col-6 text-center">
@@ -138,7 +138,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- End Facts Section -->
 
     <!-- ======= Our Skills Section ======= -->

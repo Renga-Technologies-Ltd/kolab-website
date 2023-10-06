@@ -236,7 +236,7 @@
         <div class="row no-gutters">
 
           <div class="col-lg-2 box">
-            <img src="./assets/img/partners/alfresco_logo.fw_.png" alt="NCC Rwanda" class="client-logo">
+            <img src="./assets/img/partners/alfresco_logo.fw_.png" alt="alfresco" class="client-logo">
           </div>
 
           <div class="col-lg-2 box">
@@ -244,10 +244,10 @@
           </div>
 
           <div class="col-lg-2 box">
-            <img src="./assets/img/partners/Dell_Logo.png" alt="Zawadi Kenya" class="Dell">
+            <img src="./assets/img/partners/Dell_Logo.png" alt="Dell" class="Dell">
           </div>
           <div class="col-lg-2 box">
-            <img src="./assets/img/partners/erpnext-logo-blue-v2.png" alt="Zawadi Kenya" class="client-logo">
+            <img src="./assets/img/partners/erpnext-logo-blue-v2.png" alt="ERP next" class="client-logo">
           </div>
           <div class="col-lg-2 box">
             <img src="./assets/img/partners/HP-Logo.png" alt="HP" class="client-logo">
@@ -256,22 +256,22 @@
             <img src="./assets/img/partners/instasafe-1.png" alt="InstaSafe" class="client-logo">
           </div>
           <div class="col-lg-2 box">
-            <img src="./assets/img/partners/mifos-logo.png" alt="Zawadi Kenya" class="client-logo">
+            <img src="./assets/img/partners/mifos-logo.png" alt="MIFOS" class="client-logo">
           </div>
           <div class="col-lg-2 box">
-            <img src="./assets/img/partners/odoo.png" alt="Zawadi Kenya" class="client-logo">
+            <img src="./assets/img/partners/odoo.png" alt="Odoo" class="client-logo">
+          </div>
+          <!-- <div class="col-lg-2 box">
+            <img src="./assets/img/partners/Sap-B1-Logo-png.png" alt="SAP one" class="client-logo">
+          </div> -->
+          <div class="col-lg-2 box">
+            <img src="./assets/img/partners/Seceon-Logo-no-white-outline-1.png" alt="Seceon" class="client-logo">
           </div>
           <div class="col-lg-2 box">
-            <img src="./assets/img/partners/Sap-B1-Logo-png.png" alt="Zawadi Kenya" class="client-logo">
+            <img src="./assets/img/partners/social_posts_logo.png" alt="Scale" class="client-logo">
           </div>
           <div class="col-lg-2 box">
-            <img src="./assets/img/partners/Seceon-Logo-no-white-outline-1.png" alt="Zawadi Kenya" class="client-logo">
-          </div>
-          <div class="col-lg-2 box">
-            <img src="./assets/img/partners/social_posts_logo.png" alt="Zawadi Kenya" class="client-logo">
-          </div>
-          <div class="col-lg-2 box">
-            <img src="./assets/img/partners/Stratroom-1-1.png" alt="Zawadi Kenya" class="client-logo">
+            <img src="./assets/img/partners/Stratroom-1-1.png" alt="Stratroom" class="client-logo">
           </div>
           <!-- Add more client logos as needed -->
 

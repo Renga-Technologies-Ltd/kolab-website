@@ -48,23 +48,21 @@
                     <h4>Our Services</h4>
                     <ul>
                         <li>
-                            <i class="bx bx-chevron-right"></i> <a href="#">Web Design</a>
+                            <i class="bx bx-chevron-right"></i> <a href="#">IT Consultancy</a>
                         </li>
                         <li>
                             <i class="bx bx-chevron-right"></i>
-                            <a href="#">Web Development</a>
+                            <a href="#">App Developmentt</a>
                         </li>
                         <li>
                             <i class="bx bx-chevron-right"></i>
-                            <a href="#">Product Management</a>
+                            <a href="#">IT Infrastructure & Security</a>
                         </li>
                         <li>
-                            <i class="bx bx-chevron-right"></i> <a href="#">Marketing</a>
+                            <i class="bx bx-chevron-right"></i> <a href="#">Enterprise Business Solutions
+                            </a>
                         </li>
-                        <li>
-                            <i class="bx bx-chevron-right"></i>
-                            <a href="#">Graphic Design</a>
-                        </li>
+
                     </ul>
                 </div>
 

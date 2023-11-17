@@ -77,7 +77,7 @@
             to transform their businesses through innovative and optimal use
             of technology.
           </p>
-          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+          <a href="#"><span>Read More</span></a> 
         </div>
       </div>
       <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
@@ -101,13 +101,7 @@
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
               <h4 class="title"><a href="">IT Consultancy Services</a></h4>
               <p class="description">
-                We identify the required changes to the infrastructure from
-                network, communications, and security to the data center,
-                end-user computing, applications, and service management to
-                ensure the new service delivers the desired return on
-                investment and business outcomes. We offer IT consulting
-                services that will help you improve your software
-                architecture, create a tech-driven digital strategy.
+              Empowering businesses with strategic IT insights and solutions to drive growth and efficiency.
               </p>
             </div>
           </div>
@@ -119,12 +113,7 @@
                 <a href="">Enterprise Business Solutions</a>
               </h4>
               <p class="description">
-                You need a fast, agile integrated business solution platform
-                to drive your supply chain, whether you operate a central
-                distribution centre, a network of showrooms, and internet
-                trading hub or a telesales function. You need powerful
-                versatile software to enable competitive pricing and
-                responsive enterprise solution.
+              Delivering comprehensive Enterprise Business Solutions tailored to your organization's unique needs and challenges
               </p>
             </div>
           </div>
@@ -134,11 +123,7 @@
               <div class="icon"><i class="bx bx-tachometer"></i></div>
               <h4 class="title"><a href="">Application Development</a></h4>
               <p class="description">
-                Our process starts with the definition of a problem, analyzing
-                it, finding the solution to it through discussions with the
-                client and implementing the solution. We use modern agile
-                tools throughout the process.a We provide End-to-End Solutions
-                for Cost-effectiveness and operational efficiency.
+              Pioneering innovative and tailored Application Development solutions to bring your ideas to life.
               </p>
             </div>
           </div>
@@ -150,12 +135,7 @@
                 <a href="">IT Infrastructure & Security Solutions </a>
               </h4>
               <p class="description">
-                Kolab Technologies Limited are Technology Infrastructure
-                focused and deliver highest value for the investments
-                customers make on IT Infra assets. We provide these services
-                across a range of technologies and delivery models including
-                cloud, IT outsourcing, Network, data center, end-user
-                computing, security, and sustainability.
+              Securing and optimizing your digital foundation with IT Infrastructure & Security Solutions that safeguard your data and operations.
               </p>
             </div>
           </div>

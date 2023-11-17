@@ -341,7 +341,7 @@ h6,
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 90vh;
+  height: 95vh;
   overflow: hidden;
   position: relative;
 }
@@ -351,20 +351,19 @@ h6,
   position: absolute;
   left: 50%;
   top: 0;
-  width: 130%;
-  height: 95%;
+  width: 110%;
+  height: 90%;
   background: linear-gradient(to right, rgba(227, 145, 238, 0.8), rgba(30, 67, 86, 0.6)), url("../img/hero-bg.jpg") center top no-repeat;
-  z-index: 0;
-  border-radius: 0 0 50% 50%;
+  background-size: cover;
   transform: translateX(-50%) rotate(0deg);
 }
 
 #hero::before {
   content: "";
   position: absolute;
-  left: 50%;
+  left: 0;
   top: 0;
-  width: 130%;
+  width: 0%;
   height: 96%;
   background: #713998;
   opacity: 0.3;
@@ -496,6 +495,9 @@ h6,
   overflow: hidden;
   position: relative;
   text-align: center;
+  margin-bottom: -90px;
+  z-index: 99;
+  transition: 0.3s;
 }
 
 #hero-no-slider::before {
@@ -691,7 +693,7 @@ section {
 .services .description {
   font-size: 15px;
   line-height: 28px;
-  margin-bottom: 0;
+  margin-bottom: -40x;
 }
 
 .services .icon-box-pink .icon {

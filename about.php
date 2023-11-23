@@ -60,21 +60,16 @@
   <!-- End Header -->
 
   <main id="main">
-    <!-- ======= About Us Section ======= -->
-    <section class="breadcrumbs">
-      <div class="container">
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>About Us</h2>
-          <ol>
-            <li><a href="index.php">Home</a></li>
-            <li>About Us</li>
-          </ol>
-        </div>
-      </div>
-    </section>
+  
     <!-- End About Us Section -->
 
     <!-- ======= About Section ======= -->
+    <section id="About Us" class="About Us">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About Us</h2>
+        </div>
     <section class="about" data-aos="fade-up">
       <div class="container">
         <div class="row">

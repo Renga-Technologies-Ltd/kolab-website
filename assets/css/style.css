@@ -344,6 +344,8 @@ h6,
   height: 95vh;
   overflow: hidden;
   position: relative;
+  margin-bottom: -277px;
+  transition: o.3s;
 }
 
 #hero::after {
@@ -360,7 +362,7 @@ h6,
 
 #hero::before {
   content: "";
-  position: absolute;
+  position: absolute; 
   left: 0;
   top: 0;
   width: 0%;
@@ -662,7 +664,8 @@ section {
   box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
   transition: all 0.3s ease-in-out;
   text-align: center;
-  border: 1px solid #fff;
+  border-radius: 25px;
+  border: 2px solid #fff
 }
 
 .services .icon {
@@ -1504,15 +1507,15 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  padding-bottom: 30px;
+  padding-bottom: -60px;
 }
 
 .contact .info-box {
   color: #444;
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-  padding: 20px 0 30px 0;
-  margin-bottom: 30px;
+  padding: 15px 0 30px 0;
+  margin-bottom: 2px;
 }
 
 .contact .info-box i {
@@ -1601,19 +1604,21 @@ section {
 }
 
 .contact .php-email-form textarea {
-  padding: 12px 15px;
+  padding: 10px 12px;
 }
 
 .contact .php-email-form button[type=submit] {
   background: #68A4C4;
   border: 0;
   padding: 10px 24px;
+  border-radius: 50px;
+  border: 2px solid #0880e8;
   color: #fff;
   transition: 0.4s;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #8dbad2;
+  background: #0da100;
 }
 
 @keyframes animate-loading {

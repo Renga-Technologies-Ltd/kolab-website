@@ -77,7 +77,8 @@
             to transform their businesses through innovative and optimal use
             of technology.
           </p>
-          <a href="#"><span>Read More</span></a> 
+          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+
         </div>
       </div>
       <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
@@ -252,6 +253,9 @@
           </div>
           <div class="col-lg-2 box">
             <img src="./assets/img/partners/Stratroom-1-1.png" alt="Stratroom" class="client-logo">
+          </div>
+          <div class="col-lg-2 box">
+            <img src="./assets/img/partners/veeam-backup-and-replication.png" alt="Stratroom" class="client-logo">
           </div>
           <!-- Add more client logos as needed -->
 

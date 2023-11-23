@@ -57,21 +57,16 @@
   <!-- End Header -->
 
   <main id="main">
-    <!-- ======= Contact Section ======= -->
-    <section class="breadcrumbs">
-      <div class="container">
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>Contact</h2>
-          <ol>
-            <li><a href="index.php">Home</a></li>
-            <li>Contact</li>
-          </ol>
-        </div>
-      </div>
-    </section>
-    <!-- End Contact Section -->
+    
 
     <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact Us</h2>
+        </div>
+
     <section class="contact" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
       <div class="container">
         <div class="row">
@@ -124,9 +119,8 @@
                   Your message has been sent. Thank you!
                 </div>
               </div>
-              <div class="text-center">
-                <button type="submit">Send Message</button>
-              </div>
+              
+              <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
           </div>
         </div>

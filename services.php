@@ -63,23 +63,15 @@
   </header><!-- End Header -->
 
   <main id="main">
-
-    <!-- ======= Our Services Section ======= -->
-    <section class="breadcrumbs">
-      <div class="container">
-
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>Our Services</h2>
-          <ol>
-            <li><a href="index.php">Home</a></li>
-            <li>Our Services</li>
-          </ol>
-        </div>
-
-      </div>
     </section><!-- End Our Services Section -->
 
     <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Services</h2>
+        </div>
     <section class="services">
       <div class="container">
 

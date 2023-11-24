@@ -51,10 +51,67 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="active" href="index.php">Home</a></li>
-          <li><a href="about.php">About</a></li>
-          <li><a href="services.php">Services</a></li>
-          <li><a href="contact.php">Contact Us</a></li>
+        <li><a class="btn-get-started animate__animated animate__fadeInUp active" href="index.php">Home</a></li>
+          <a href="About.php" class="btn-get-started animate__animated animate__fadeInUp">About</a>
+          <a href="Services.php" class="btn-get-started animate__animated animate__fadeInUp">Services</a>
+          <a href="contact.php" class="btn-get-started animate__animated animate__fadeInUp">Contact Us</a>
+          <div class="d-none d-lg-block ms-lg-3">
+                            <a class="btn custom-btn custom-border-btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Book a Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">                
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Let's work together</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                 Do you have a project in mind which we might be of help with?
+                 <div class="offcanvas-body">
+                 Talk to us using the form below and we shall get back to you at your convenience to explain in detail about our scope!
+              <div
+                 class="offcanvas-body d-flex flex-column">
+                    <form class="custom-form member-login-form" action="#" method="post" role="form">
+
+                        <div class="member-login-form-body">
+                            <div class="mb-4">
+                                <label class="form-label mb-2" for="member-login-number">Name</label>
+
+                                <input type="text" name="member-login-number" id="member-login-number" class="form-control"  required>
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="form-label mb-2" for="Email">Email</label>
+
+                                <input type="Email" name="member-login-password" id="member-login-password" pattern="[0-9a-zA-Z]{4,10}" class="form-control" required="">
+                            </div>
+                            <div class="mb-4">
+                                <label class="form-label mb-2" for="Email">Phone number</label>
+
+                                <input name="member-login-password" id="member-login-password"  class="form-control" required="">
+                            </div>
+                            <div class="mb-4">
+                            <label for="cars">Which solution are you interested in?</label>
+
+<select name="cars" id="cars">
+  <option value="volvo">  IT consultancy</option>
+  <option value="saab">Enterprise Bussiness Solutions   </option>
+  <option value="mercedes">IT Infrastructure & Security       </option>
+  <option value="audi">Application Development</option>
+  <option value="audi">Security Solution</option>
+</select>
+
+                            <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+
+                            <div class="col-lg-5 col-md-7 col-8 mx-auto">
+                                <button type="submit" class="form-control">Send message</button>
+                            </div>
+                        </div>
+                    </form>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>

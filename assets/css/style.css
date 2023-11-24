@@ -49,7 +49,7 @@ h6,
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #ee6bc7;
+  background: #a745bb;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -63,8 +63,8 @@ h6,
 }
 
 .back-to-top:hover {
-  background: #d671f5;
-  color: #fff;
+  background: #871ea7;
+  color: #ffffff;
 }
 
 .back-to-top.active {
@@ -150,7 +150,7 @@ h6,
   font-size: 14px;
   color: #fff;
   white-space: nowrap;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .navbar a i,
@@ -164,7 +164,7 @@ h6,
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #a2cce3;
+  color: rgb(80, 186, 194);
 }
 
 .navbar .dropdown ul {

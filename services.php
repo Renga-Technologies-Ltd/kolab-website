@@ -51,10 +51,11 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="" href="index.php">Home</a></li>
-          <li><a href="about.php">About</a></li>
-          <li><a class="active" href="services.php">Services</a></li>
-          <li><a href="contact.php">Contact Us</a></li>
+        <li><a class="" href="index.php">Home</a></li>
+          <a href="About.php" class="">About</a>
+          <a href="Services.php" class="btn-get-started animate__animated animate__fadeInUp active">Services</a>
+          <a href="contact.php" class="">Contact Us</a>
+          <a href="index.php" class="">Book a Demo</a>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->

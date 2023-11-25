@@ -69,6 +69,9 @@
             </ul>
           </li>
           <li><a href="contact.php">Contact Us</a></li>
+          </ul>
+           </li>
+           <li><a href="about">Book a Demo</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->

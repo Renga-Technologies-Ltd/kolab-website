@@ -98,12 +98,12 @@
                             <div class="mb-4">
                             <label for="cars">Which solution are you interested in?</label>
 
-<select name="cars" id="cars">
-  <option value="volvo">  IT consultancy</option>
-  <option value="saab">Enterprise Bussiness Solutions   </option>
-  <option value="mercedes">IT Infrastructure & Security       </option>
-  <option value="audi">Application Development</option>
-  <option value="audi">Security Solution</option>
+<select name="" id="services">
+  <option value="">  IT consultancy</option>
+  <option value="">Enterprise Bussiness Solutions</option>
+  <option value="">IT Infrastructure & Security</option>
+  <option value="">Application Development</option>
+  <option value="">Security Solution</option>
 </select>
 
 <div class="form-group mb-6">

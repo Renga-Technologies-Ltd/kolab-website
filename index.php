@@ -56,7 +56,7 @@
           <a href="Services.php" class="btn-get-started animate__animated animate__fadeInUp">Services</a>
           <a href="contact.php" class="btn-get-started animate__animated animate__fadeInUp">Contact Us</a>
           <div class="d-none d-lg-block ms-lg-3">
-                            <a class="btn custom-btn custom-border-btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Book a Demo</a>
+<a class="btn custom-btn custom-border-btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Book a Demo</a>
                         </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                 Do you have a project in mind which we might be of help with?
+               Do you have a project in mind which we might be of help with?
                  <div class="offcanvas-body">
                  Talk to us using the form below and we shall get back to you at your convenience to explain in detail about our scope!
               <div
@@ -77,20 +77,23 @@
 
                         <div class="member-login-form-body">
                             <div class="mb-4">
-                                <label class="form-label mb-2" for="member-login-number">Name</label>
 
-                                <input type="text" name="member-login-number" id="member-login-number" class="form-control"  required>
+
+                                <input type="text" class="form-control"placeholder="Your Name"  required>
                             </div>
 
                             <div class="mb-4">
-                                <label class="form-label mb-2" for="Email">Email</label>
 
-                                <input type="Email" name="member-login-password" id="member-login-password" pattern="[0-9a-zA-Z]{4,10}" class="form-control" required="">
+                             <input type="Email" name="Email" id="Email" class="form-control"placeholder="Your Email" required="">
                             </div>
                             <div class="mb-4">
-                                <label class="form-label mb-2" for="Email">Phone number</label>
-
-                                <input name="member-login-password" id="member-login-password"  class="form-control" required="">
+                                <input name="number" id="number"  class="form-control"placeholder="Phone Number" required="">
+                            </div>
+                            <div class="mb-4">
+                            <input type="text" class="form-control"placeholder="Job position"  required>
+                            </div>
+                            <div class="mb-4">
+                            <input type="text" class="form-control"placeholder="Company name"  required>
                             </div>
                             <div class="mb-4">
                             <label for="cars">Which solution are you interested in?</label>
@@ -103,15 +106,15 @@
   <option value="audi">Security Solution</option>
 </select>
 
-                            <div class="form-group mt-3">
+<div class="form-group mb-6">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
-
                             <div class="col-lg-5 col-md-7 col-8 mx-auto">
                                 <button type="submit" class="form-control">Send message</button>
                             </div>
                         </div>
                     </form>
+                    
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
@@ -134,10 +137,27 @@
             to transform their businesses through innovative and optimal use
             of technology.
           </p>
-          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
-
+          <a href="about.php" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
         </div>
       </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">IT Consultancy</h2>
+          <p class="animate__animated animate__fadeInUp">We help identify the required changes to your IT Structures.</p>
+        </div>
+      </div>
+
+       <!-- Slide 3 -->
+       <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Enterprise Business Solutions</h2>
+          <p class="animate__animated animate__fadeInUp">Designed to provide flexibility, visibility and control across your business. </p>
+        </div>
+      </div>
+
+
       <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
       </a>
@@ -156,7 +176,12 @@
         <div class="row">
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
             <div class="icon-box icon-box-pink">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+            <script src="https://cdn.lordicon.com/lordicon.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/amjaykqd.json"
+    trigger="hover"
+    style="width:55px;height:55px">
+</lord-icon>
               <h4 class="title"><a href="">IT Consultancy Services</a></h4>
               <p class="description">
               Empowering businesses with strategic IT insights and solutions to drive growth and efficiency.
@@ -166,19 +191,29 @@
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="icon-box icon-box-cyan">
-              <div class="icon"><i class="bx bx-file"></i></div>
+            <script src="https://cdn.lordicon.com/lordicon.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/ajfmgpbq.json"
+    trigger="hover"
+    style="width:55px;height:55px">
+</lord-icon>
               <h4 class="title">
                 <a href="">Enterprise Business Solutions</a>
               </h4>
               <p class="description">
-              Delivering comprehensive Enterprise Business Solutions tailored to your organization's unique needs and challenges
+              Delivering comprehensive Enterprise Business Solutions tailored to your organization's unique needs and challenges.
               </p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="icon-box icon-box-green">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
+            <script src="https://cdn.lordicon.com/lordicon.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/ipbtscff.json"
+    trigger="hover"
+    style="width:55px;height:55px">
+</lord-icon>
               <h4 class="title"><a href="">Application Development</a></h4>
               <p class="description">
               Pioneering innovative and tailored Application Development solutions to bring your ideas to life.
@@ -188,7 +223,12 @@
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="icon-box icon-box-blue">
-              <div class="icon"><i class="bx bx-world"></i></div>
+            <script src="https://cdn.lordicon.com/lordicon.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/fygyhyze.json"
+    trigger="hover"
+    style="width:55px;height:55px">
+</lord-icon>
               <h4 class="title">
                 <a href="">IT Infrastructure & Security Solutions </a>
               </h4>
@@ -199,7 +239,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> 
 
 
     <!-- ======= Features Section ======= -->

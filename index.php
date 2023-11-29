@@ -99,6 +99,7 @@
                             <label for="cars">Which solution are you interested in?</label>
 
 <select name="" id="services">
+<option value="">  ---select service---</option>
   <option value="">  IT consultancy</option>
   <option value="">Enterprise Bussiness Solutions</option>
   <option value="">IT Infrastructure & Security</option>
@@ -110,9 +111,8 @@
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
                             <div class="col-lg-5 col-md-7 col-8 mx-auto">
-                                <button type="submit" class="form-control">Send message</button>
+                                <button type="submit" class="form-control">SUBMIT</button>
                             </div>
-                        </div>
                     </form>
                     
         </ul>
@@ -182,7 +182,7 @@
     trigger="hover"
     style="width:55px;height:55px">
 </lord-icon>
-              <h4 class="title"><a href="">IT Consultancy Services</a></h4>
+              <h4 class="title"><a href="services.php">IT Consultancy Services</a></h4>
               <p class="description">
               Empowering businesses with strategic IT insights and solutions to drive growth and efficiency.
               </p>
@@ -198,7 +198,7 @@
     style="width:55px;height:55px">
 </lord-icon>
               <h4 class="title">
-                <a href="">Enterprise Business Solutions</a>
+                <a href="services.php">Enterprise Business Solutions</a>
               </h4>
               <p class="description">
               Delivering comprehensive Enterprise Business Solutions tailored to your organization's unique needs and challenges.
@@ -214,7 +214,7 @@
     trigger="hover"
     style="width:55px;height:55px">
 </lord-icon>
-              <h4 class="title"><a href="">Application Development</a></h4>
+              <h4 class="title"><a href="services.php">Application Development</a></h4>
               <p class="description">
               Pioneering innovative and tailored Application Development solutions to bring your ideas to life.
               </p>
@@ -230,7 +230,7 @@
     style="width:55px;height:55px">
 </lord-icon>
               <h4 class="title">
-                <a href="">IT Infrastructure & Security Solutions </a>
+                <a href="services.php">IT Infrastructure & Security Solutions </a>
               </h4>
               <p class="description">
               Securing and optimizing your digital foundation with IT Infrastructure & Security Solutions that safeguard your data and operations.

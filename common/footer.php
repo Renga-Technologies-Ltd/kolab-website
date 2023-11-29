@@ -23,24 +23,21 @@
                     <ul>
                         <li>
                             <i class="bx bx-chevron-right"></i>
-                            <a href="/about.php">Home</a>
+                            <a href="index.php">Home</a>
                         </li>
                         <li>
                             <i class="bx bx-chevron-right"></i>
-                            <a href="/about.php">About us</a>
+                            <a href="about.php">About us</a>
                         </li>
                         <li>
                             <i class="bx bx-chevron-right"></i>
-                            <a href="/services.php">Services</a>
+                            <a href="services.php">Services</a>
                         </li>
                         <li>
-                            <i class="bx bx-chevron-right"></i>
-                            <a href="/termsofservice.php">Terms of service</a>
+                        <i class="bx bx-chevron-right"></i>
+                            <a href="contact.php">Contact Us</a>
                         </li>
                         <li>
-                            <i class="bx bx-chevron-right"></i>
-                            <a href="/privacy.php">Privacy policy</a>
-                        </li>
                     </ul>
                 </div>
 
@@ -48,15 +45,15 @@
                     <h4>Our Services</h4>
                     <ul>
                         <li>
-                            <i class="bx bx-chevron-right"></i> <a href="#">IT Consultancy</a>
+                            <i class="bx bx-chevron-right"></i> <a href="services.php">IT Consultancy</a>
                         </li>
                         <li>
                             <i class="bx bx-chevron-right"></i>
-                            <a href="#">App Developmentt</a>
+                            <a href="services.php">App Developmentt</a>
                         </li>
                         <li>
                             <i class="bx bx-chevron-right"></i>
-                            <a href="#">IT Infrastructure & Security</a>
+                            <a href="services.php">IT Infrastructure & Security</a>
                         </li>
                         <li>
                             <i class="bx bx-chevron-right"></i> <a href="#">Enterprise Business Solutions
@@ -89,10 +86,10 @@
                         Infrastructure and IT Security.
                     </p>
                     <div class="social-links mt-3">
+                        <a href="https://www.facebook.com/photo/?fbid=124116420370581&set=a.124116400370583&__tn__=%3C" class="facebook"><i class="bx bxl-facebook"></i></a>
+                        <a href="https://www.linkedin.com/company/rengatechnologies/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company%3B2evMQN%2B%2FTuW4X6tXZbaz8Q%3D%3D" class="linkedin"><i class="bx bxl-linkedin"></i></a>
                         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
                         <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
                     </div>
                 </div>
             </div>

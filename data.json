@@ -24,3 +24,6 @@
     "imageUrl": "app-development.jpg"
   }
 ]
+$(function() {
+  $("#myModal").modal();
+});

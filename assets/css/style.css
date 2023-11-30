@@ -1,10 +1,52 @@
-/**
-*  Name: Kolab
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
-*  URL: https://bootstrapmade.com/free-bootstrap--corporate-Kolab/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+/*
+
+TemplateMo 587 Tiya Golf Club
+
+https://templatemo.com/tm-587-tiya-golf-club
+
 */
+
+
+/*---------------------------------------
+  CUSTOM PROPERTIES ( VARIABLES )             
+-----------------------------------------*/
+:root {
+  --white-color:                  #ffffff;
+  --primary-color:                #70399833;
+  --secondary-color:              #ffffff;
+  --section-bg-color:             #ffffff;
+  --custom-btn-bg-color:          #ffffff;
+  --custom-btn-bg-hover-color:    #ffffff;
+  --dark-color:                   #ffffff;
+  --p-color:                      #ffffff;
+  --link-hover-color:             #c70000;
+
+  --body-font-family:             'DM Sans', sans-serif;
+
+  --h1-font-size:                 42px;
+  --h2-font-size:                 36px;
+  --h3-font-size:                 28px;
+  --h4-font-size:                 24px;
+  --h5-font-size:                 22px;
+  --h6-font-size:                 20px;
+  --p-font-size:                  18px;
+  --menu-font-size:               16px;
+  --btn-font-size:                14px;
+
+  --border-radius-large:          13px;
+  --border-radius-medium:         20px;
+  --border-radius-small:          10px;
+
+  --font-weight-normal:           400;
+  --font-weight-medium:           500;
+  --font-weight-bold:             700;
+}
+
+body {
+  background-color: var(--white-color);
+  font-family: var(--body-font-family); 
+}
+
 
 /*--------------------------------------------------------------
 # General
@@ -77,9 +119,9 @@ h6,
 --------------------------------------------------------------*/
 #header {
   height: 80px;
-  transition: all 0.5s;
+  transition: all 0.3s;
   z-index: 997;
-  transition: all 0.5s;
+  transition: all 0.3s;
   background: #713998;
 }
 
@@ -118,8 +160,38 @@ h6,
   margin-top: 80px;
 }
 
+/*---------------------------------------
+  CUSTOM BUTTON               
+-----------------------------------------*/
+.custom-btn:hover {
+  background: var(--custom-btn-bg-hover-color);
+  color: var(--white-color);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: normal;
+  margin: 10px;
+  color: #fff;
+  animation-delay: 0.2s;
+  border: 2px solid #68A4C4;
+  padding: 10px 20px;
+}
+
+.custom-border-btn {
+  background: transparent;
+  border: 3px solid var(--custom-btn-bg-color);
+  color: var(--custom-btn-bg-color);
+  margin: 5px;
+  margin-top: 5px;
+  
+}
+
+
 /*--------------------------------------------------------------
-# Navigation Menu
+# Navigation Menu & OFFCANVAS
 --------------------------------------------------------------*/
 /**
 * Desktop Navigation 
@@ -129,7 +201,7 @@ h6,
 }
 
 .navbar ul {
-  margin: 0;
+  margin: 5px;
   padding: 0;
   display: flex;
   list-style: none;
@@ -145,9 +217,8 @@ h6,
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+  padding: 8px 8px 8px 8px;
+  font-size: 15px;
   color: #fff;
   white-space: nowrap;
   transition: 0.5s;
@@ -232,6 +303,62 @@ h6,
   }
 }
 
+/*---------------------------------------
+   OFFCANVAS              
+-----------------------------------------*/
+.offcanvas {
+  background-color: var(--primary-color);
+  padding: 30px;
+  border-radius: 65px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 34px;
+  margin-top: 34px;
+}
+.offcanvas-header {
+  font-size: 17px;
+  color: #ffffff;
+  background: #713998;
+  border-radius: 13px;
+  margin-bottom: 5px;
+  
+}
+.offcanvas-body {
+  font-size: 15px;
+  color: #ffffff;
+  background: #713998;
+  border-radius: 33px;
+}
+.offcanvas.offcanvas-end {
+  border-left: 15px;
+}
+
+.offcanvas-header .btn-close {
+  transition: all 0.3s;
+}
+
+.offcanvas-header .btn-close:hover {
+  transform: rotate(270deg);
+}                                           
+/*---------------------------------------
+  CUSTOM FORM               
+-----------------------------------------*/
+.custom-form .form-control {
+  border-radius: var(--border-radius-large);
+  margin-top: 6px;
+  margin-bottom: 6px;
+
+}
+
+.custom-form button[type="submit"] {
+  border-radius: var(--border-radius-large);
+  color: #000000;
+}
+
+
+
+                   
 /**
 * Mobile Navigation 
 */
@@ -281,7 +408,7 @@ h6,
   padding: 10px 0;
   background-color: #fff;
   overflow-y: auto;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 .navbar-mobile a,
@@ -345,7 +472,7 @@ h6,
   overflow: hidden;
   position: relative;
   margin-bottom: -277px;
-  transition: o.3s;
+  transition: 0.4s;
 }
 
 #hero::after {
@@ -492,14 +619,7 @@ h6,
 # Hero No Slider Section
 --------------------------------------------------------------*/
 #hero-no-slider {
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  margin-bottom: -90px;
-  z-index: 99;
-  transition: 0.3s;
+   
 }
 
 #hero-no-slider::before {
@@ -552,14 +672,14 @@ h6,
 }
 
 /*--------------------------------------------------------------
-# Sections General
+# Our parners
 --------------------------------------------------------------*/
 section {
   padding: 60px 0;
 }
 
 .section-bg {
-  background-color: #f3f8fa;
+  background-color: #fff;
 }
 
 .section-title {
@@ -602,7 +722,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Breadcrumbs
+# Breadcrumbs inactive
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
@@ -649,23 +769,23 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Our Services
+# Our Services 
 --------------------------------------------------------------*/
 .services {
   padding-bottom: 20px;
 }
 
 .services .icon-box {
-  padding: 30px;
+  padding: 45px;
   position: relative;
   overflow: hidden;
   margin: 0 0 40px 0;
   background: #fff;
-  box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
-  transition: all 0.3s ease-in-out;
+  box-shadow: 0 5px 26px 0 rgba(10, 76, 255, 0.14);
+  transition: all 0.4s ease-in-out;
   text-align: center;
   border-radius: 25px;
-  border: 2px solid #fff
+  border: 2px solid rgba(129, 37, 129, 0.315)
 }
 
 .services .icon {
@@ -708,7 +828,7 @@ section {
 }
 
 .services .icon-box-pink:hover {
-  border-color: #ff689b;
+  border-color:#3fcdc7;
 }
 
 .services .icon-box-cyan .icon {
@@ -732,7 +852,7 @@ section {
 }
 
 .services .icon-box-green:hover {
-  border-color: #41cf2e;
+  border-color: #3fcdc7
 }
 
 .services .icon-box-blue .icon {
@@ -744,15 +864,15 @@ section {
 }
 
 .services .icon-box-blue:hover {
-  border-color: #2282ff;
+  border-color: #3fcdc7;
 }
 
 /*--------------------------------------------------------------
-# Why Us
+# Services
 --------------------------------------------------------------*/
 .why-us .container {
   box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
-  background: #fff;
+  background: url("../img/services-bg.png") center no-repeat;
 }
 
 .why-us .icon-box+.icon-box {
@@ -896,7 +1016,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Features
+# Features inactive
 --------------------------------------------------------------*/
 .features .row+.row {
   margin-top: 100px;
@@ -927,7 +1047,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About
+# About inactive
 --------------------------------------------------------------*/
 .about h3 {
   font-weight: 400;
@@ -954,7 +1074,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Facts
+# Facts inactive
 --------------------------------------------------------------*/
 .facts .counters span {
   font-size: 48px;
@@ -970,7 +1090,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Our Skills
+# Our Skills inactive
 --------------------------------------------------------------*/
 .skills {
   padding: 60px 0;
@@ -1001,7 +1121,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Tetstimonials
+# Tetstimonials inactive
 --------------------------------------------------------------*/
 .testimonials {
   padding: 60px 0;
@@ -1081,7 +1201,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Service Details
+# Service Details inactive
 --------------------------------------------------------------*/
 .service-details {
   padding-bottom: 10px;
@@ -1157,7 +1277,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Pricing
+# Pricing inactive
 --------------------------------------------------------------*/
 .pricing .row {
   padding-top: 40px;
@@ -1273,7 +1393,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# Portfolio inactive
 --------------------------------------------------------------*/
 .portfolio {
   padding-bottom: 60px;
@@ -1356,7 +1476,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# Portfolio Details inactive
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
@@ -1421,7 +1541,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Team
+# Team inactive
 --------------------------------------------------------------*/
 .team {
   background: #fff;
@@ -1507,11 +1627,12 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  padding-bottom: -60px;
+  padding-bottom: 10px;
+  
 }
 
 .contact .info-box {
-  color: #444;
+  color: #000000;
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 15px 0 30px 0;
@@ -1608,11 +1729,10 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #68A4C4;
+  background: #448ab9;
   border: 0;
   padding: 10px 24px;
   border-radius: 50px;
-  border: 2px solid #0880e8;
   color: #fff;
   transition: 0.4s;
 }
@@ -2327,3 +2447,76 @@ section {
 #footer .credits a {
   color: #a2cce3;
 }
+
+/*---------------------------------------
+  CUSTOM BUTTON               
+-----------------------------------------*/
+.custom-btn {
+  background: var(--custom-btn-bg-color);
+  border: 2px solid transparent;
+  border-radius: var(--border-radius-large);
+    border-radius: var(--border-radius-large);
+  border-width: 2px;
+  color: var(--white-color);
+  font-size: var(--btn-font-size);
+  font-weight: var(--font-weight-bold);
+  line-height: normal;
+  transition: all 0.3s;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+}
+
+.custom-btn:hover {
+  background: var(--custom-btn-bg-hover-color);
+  color: var(--white-color);
+}
+
+.custom-border-btn {
+  background: transparent;
+  border: 2px solid var(--custom-btn-bg-color);
+  color: var(--custom-btn-bg-color);
+}
+
+.custom-border-btn:hover {
+  background: var(--custom-btn-bg-color);
+  border-color: transparent;
+  color: var(--white-color);
+}
+
+.custom-btn-bg-white {
+  border-color: var(--white-color);
+  color: var(--white-color);
+}
+
+.custom-btn-group .link {
+  color: var(--white-color);
+  font-weight: var(--font-weight-medium);
+}
+
+.custom-btn-group .link:hover {
+  color: var(--link-hover-color);
+}
+
+.custom-form button[type="submit"] {
+  background: rgb(40, 6, 192);
+  border: 0;
+  border-radius: 100px;
+  color: var(--white-color);
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.custom-form button[type="submit"]:hover,
+.custom-form button[type="submit"]:focus {
+  background: rgb(33, 194, 33);
+  border-color: transparent;
+  box-shadow: 0 0 20px #fffff;
+}
+button:active {
+  background-color: #3d94cf;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+  transform: scale(0.98);
+}
+

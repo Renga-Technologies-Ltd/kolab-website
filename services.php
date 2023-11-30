@@ -110,7 +110,7 @@
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
                             <div class="col-lg-5 col-md-7 col-8 mx-auto">
-                                <button type="submit" class="form-control">Send message</button>
+                                <button type="submit" class="form-control">SUBMIT</button>
                             </div>
                         </div>
                     </form>

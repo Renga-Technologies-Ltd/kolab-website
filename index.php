@@ -51,75 +51,70 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-        <li><a class="btn-get-started animate__animated animate__fadeInUp active" href="index.php">Home</a></li>
+          <li><a class="btn-get-started animate__animated animate__fadeInUp active" href="index.php">Home</a></li>
           <a href="About.php" class="btn-get-started animate__animated animate__fadeInUp">About</a>
           <a href="Services.php" class="btn-get-started animate__animated animate__fadeInUp">Services</a>
           <a href="contact.php" class="btn-get-started animate__animated animate__fadeInUp">Contact Us</a>
           <div class="d-none d-lg-block ms-lg-3">
-<a class="btn custom-btn custom-border-btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Book a Demo</a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-
-            <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">                
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Let's work together</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-               Do you have a project in mind which we might be of help with?
-                 <div class="offcanvas-body">
-                 Talk to us using the form below and we shall get back to you at your convenience to explain in detail about our scope!
-              <div
-                 class="offcanvas-body d-flex flex-column">
-                    <form class="custom-form member-login-form" action="#" method="post" role="form">
-
-                        <div class="member-login-form-body">
-                            <div class="mb-4">
-
-
-                                <input type="text" class="form-control"placeholder="Your Name"  required>
-                            </div>
-
-                            <div class="mb-4">
-
-                             <input type="Email" name="Email" id="Email" class="form-control"placeholder="Your Email" required="">
-                            </div>
-                            <div class="mb-4">
-                                <input name="number" id="number"  class="form-control"placeholder="Phone Number" required="">
-                            </div>
-                            <div class="mb-4">
-                            <input type="text" class="form-control"placeholder="Job position"  required>
-                            </div>
-                            <div class="mb-4">
-                            <input type="text" class="form-control"placeholder="Company name"  required>
-                            </div>
-                            <div class="mb-4">
-                            <label for="cars">Which solution are you interested in?</label>
-
-<select name="" id="services">
-<option value="">  ---select service---</option>
-  <option value="">  IT consultancy</option>
-  <option value="">Enterprise Bussiness Solutions</option>
-  <option value="">IT Infrastructure & Security</option>
-  <option value="">Application Development</option>
-  <option value="">Security Solution</option>
-</select>
-
-<div class="form-group mb-6">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-                            <div class="col-lg-5 col-md-7 col-8 mx-auto">
-                                <button type="submit" class="form-control">SUBMIT</button>
-                            </div>
-                    </form>
-                    
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
-      <!-- .navbar -->
+            <a class="btn custom-btn custom-border-btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Book a Demo</a>
+          </div>
     </div>
+    </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Let's work together</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        Do you have a project in mind which we might be of help with?
+        <div class="offcanvas-body">
+          Talk to us using the form below and we shall get back to you at your convenience to explain in detail about our scope!
+          <div class="offcanvas-body d-flex flex-column">
+            <form class="custom-form member-login-form" action="./mail/mail.php" method="post" role="form">
+              <div class="member-login-form-body">
+                <div class="mb-4">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                </div>
+
+                <div class="mb-4">
+                  <input type="Email" name="email" id="Email" class="form-control" placeholder="Your Email" required="">
+                </div>
+                <div class="mb-4">
+                  <input name="phone" id="number" class="form-control" placeholder="Phone Number" required="">
+                </div>
+                <div class="mb-4">
+                  <input type="text" name="jobposition" class="form-control" placeholder="Job position" required>
+                </div>
+                <div class="mb-4">
+                  <input type="text" name="companyname" class="form-control" placeholder="Company name" required>
+                </div>
+                <div class="mb-4">
+                  <label for="">Which solution are you interested in?</label>
+
+                  <select name="services" id="services">
+                    <option> ---select service---</option>
+                    <option value="it consuultancy"> IT consultancy</option>
+                    <option value="erp">Enterprise Bussiness Solutions</option>
+                    <option value="It sec">IT Infrastructure & Security</option>
+                    <option value="App">Application Development</option>
+                    <option value="security">Security Solution</option>
+                  </select>
+
+                  <div class="form-group mb-6">
+                    <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                  </div>
+                  <div class="col-lg-5 col-md-7 col-8 mx-auto">
+                    <button type="submit" class="form-control">SUBMIT</button>
+                  </div>
+            </form>
+
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
+          </div>
   </header>
   <!-- End Header -->
 
@@ -149,8 +144,8 @@
         </div>
       </div>
 
-       <!-- Slide 3 -->
-       <div class="carousel-item">
+      <!-- Slide 3 -->
+      <div class="carousel-item">
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">Enterprise Business Solutions</h2>
           <p class="animate__animated animate__fadeInUp">Designed to provide flexibility, visibility and control across your business. </p>
@@ -176,70 +171,58 @@
         <div class="row">
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
             <div class="icon-box icon-box-pink">
-            <script src="https://cdn.lordicon.com/lordicon.js"></script>
-<lord-icon
-    src="https://cdn.lordicon.com/amjaykqd.json"
-    trigger="hover"
-    style="width:55px;height:55px">
-</lord-icon>
+              <script src="https://cdn.lordicon.com/lordicon.js"></script>
+              <lord-icon src="https://cdn.lordicon.com/amjaykqd.json" trigger="hover" style="width:55px;height:55px">
+              </lord-icon>
               <h4 class="title"><a href="services.php">IT Consultancy Services</a></h4>
               <p class="description">
-              Empowering businesses with strategic IT insights and solutions to drive growth and efficiency.
+                Empowering businesses with strategic IT insights and solutions to drive growth and efficiency.
               </p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="icon-box icon-box-cyan">
-            <script src="https://cdn.lordicon.com/lordicon.js"></script>
-<lord-icon
-    src="https://cdn.lordicon.com/ajfmgpbq.json"
-    trigger="hover"
-    style="width:55px;height:55px">
-</lord-icon>
+              <script src="https://cdn.lordicon.com/lordicon.js"></script>
+              <lord-icon src="https://cdn.lordicon.com/ajfmgpbq.json" trigger="hover" style="width:55px;height:55px">
+              </lord-icon>
               <h4 class="title">
                 <a href="services.php">Enterprise Business Solutions</a>
               </h4>
               <p class="description">
-              Delivering comprehensive Enterprise Business Solutions tailored to your organization's unique needs and challenges.
+                Delivering comprehensive Enterprise Business Solutions tailored to your organization's unique needs and challenges.
               </p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="icon-box icon-box-green">
-            <script src="https://cdn.lordicon.com/lordicon.js"></script>
-<lord-icon
-    src="https://cdn.lordicon.com/ipbtscff.json"
-    trigger="hover"
-    style="width:55px;height:55px">
-</lord-icon>
+              <script src="https://cdn.lordicon.com/lordicon.js"></script>
+              <lord-icon src="https://cdn.lordicon.com/ipbtscff.json" trigger="hover" style="width:55px;height:55px">
+              </lord-icon>
               <h4 class="title"><a href="services.php">Application Development</a></h4>
               <p class="description">
-              Pioneering innovative and tailored Application Development solutions to bring your ideas to life.
+                Pioneering innovative and tailored Application Development solutions to bring your ideas to life.
               </p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="icon-box icon-box-blue">
-            <script src="https://cdn.lordicon.com/lordicon.js"></script>
-<lord-icon
-    src="https://cdn.lordicon.com/fygyhyze.json"
-    trigger="hover"
-    style="width:55px;height:55px">
-</lord-icon>
+              <script src="https://cdn.lordicon.com/lordicon.js"></script>
+              <lord-icon src="https://cdn.lordicon.com/fygyhyze.json" trigger="hover" style="width:55px;height:55px">
+              </lord-icon>
               <h4 class="title">
                 <a href="services.php">IT Infrastructure & Security Solutions </a>
               </h4>
               <p class="description">
-              Securing and optimizing your digital foundation with IT Infrastructure & Security Solutions that safeguard your data and operations.
+                Securing and optimizing your digital foundation with IT Infrastructure & Security Solutions that safeguard your data and operations.
               </p>
             </div>
           </div>
         </div>
       </div>
-    </section> 
+    </section>
 
 
     <!-- ======= Features Section ======= -->

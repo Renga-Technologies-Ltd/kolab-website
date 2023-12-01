@@ -31,7 +31,7 @@
       width: 100px;
       height: 100px;
       object-fit: contain;
-      /* Ensures the image fits within the specified width and height without stretching */
+      
     }
   </style>
 
@@ -79,10 +79,10 @@
                 </div>
 
                 <div class="mb-4">
-                  <input type="Email" name="email" id="Email" class="form-control" placeholder="Your Email" required="">
+                  <input type="Email" name="email" id="Email" class="form-control" placeholder="Your Email" required>
                 </div>
                 <div class="mb-4">
-                  <input name="phone" id="number" class="form-control" placeholder="Phone Number" required="">
+                  <input name="phone" id="number" class="form-control" placeholder="Phone Number" required>
                 </div>
                 <div class="mb-4">
                   <input type="text" name="jobposition" class="form-control" placeholder="Job position" required>

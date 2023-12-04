@@ -62,58 +62,55 @@
                 </div>
             </nav>
 
-            <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">                
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Let's work together</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            
+    <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Let's work together</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        Do you have a project in mind which we might be of help with?
+        <div class="offcanvas-body">
+          Talk to us using the form below and we shall get back to you at your convenience to explain in detail about our scope!
+          <div class="offcanvas-body d-flex flex-column">
+            <form class="custom-form member-login-form" action="./mail/mail.php" method="post" role="form">
+              <div class="member-login-form-body">
+                <div class="mb-4">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
                 </div>
-                <div class="offcanvas-body">
-                 Do you have a project in mind which we might be of help with?
-                 <div class="offcanvas-body">
-                 Talk to us using the form below and we shall get back to you at your convenience to explain in detail about our scope!
-              <div
-                 class="offcanvas-body d-flex flex-column">
-                    <form class="custom-form member-login-form" action="#" method="post" role="form">
 
-                        <div class="member-login-form-body">
-                            <div class="mb-4">
+                <div class="mb-4">
+                  <input type="Email" name="email" id="Email" class="form-control" placeholder="Your Email" required>
+                </div>
+                <div class="mb-4">
+                  <input name="phone" id="number" class="form-control" placeholder="Phone Number" required>
+                </div>
+                <div class="mb-4">
+                  <input type="text" name="jobposition" class="form-control" placeholder="Job position" required>
+                </div>
+                <div class="mb-4">
+                  <input type="text" name="companyname" class="form-control" placeholder="Company name" required>
+                </div>
+                <div class="mb-4">
+                  <label for="">Which solution are you interested in?</label>
 
+                  <select name="services" id="services">
+                    <option> ---select service---</option>
+                    <option value="it consuultancy"> IT consultancy</option>
+                    <option value="erp">Enterprise Bussiness Solutions</option>
+                    <option value="It sec">IT Infrastructure & Security</option>
+                    <option value="App">Application Development</option>
+                    <option value="security">Security Solution</option>
+                  </select>
 
-                                <input type="text" class="form-control"placeholder="Your Name"  required>
-                            </div>
+                  <div class="form-group mb-6">
+                    <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                  </div>
+                  <div class="col-lg-5 col-md-7 col-8 mx-auto">
+                    <button type="submit" class="form-control">SUBMIT</button>
+                  </div>
+            </form>
 
-                            <div class="mb-4">
-
-                             <input type="Email" name="Email" id="Email" class="form-control"placeholder="Your Email" required="">
-                            </div>
-                            <div class="mb-4">
-                                <input name="number" id="number"  class="form-control"placeholder="Phone Number" required="">
-                            </div>
-                            <div class="mb-4">
-                            <input type="text" class="form-control"placeholder="Job position"  required>
-                            </div>
-                            <div class="mb-4">
-                            <input type="text" class="form-control"placeholder="Company name"  required>
-                            </div>
-                            <div class="mb-4">
-                            <label for="cars">Which solution are you interested in?</label>
-
-<select name="cars" id="cars">
-  <option value="volvo">  IT consultancy</option>
-  <option value="saab">Enterprise Bussiness Solutions   </option>
-  <option value="mercedes">IT Infrastructure & Security       </option>
-  <option value="audi">Application Development</option>
-  <option value="audi">Security Solution</option>
-</select>
-
-                            <div class="form-group mb-6">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-                            <div class="col-lg-5 col-md-7 col-8 mx-auto">
-                                <button type="submit" class="form-control">SUBMIT</button>
-                            </div>
-                        </div>
-                    </form>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->

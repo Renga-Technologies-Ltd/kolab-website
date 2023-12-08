@@ -46,18 +46,18 @@
                     <h4>Our Services</h4>
                     <ul>
                         <li>
-                            <i class="bx bx-chevron-right"></i> <a href="services.php">IT Consultancy</a>
+                            <i class="bx bx-chevron-right"></i> <a href="consultancy.php">IT Consultancy</a>
                         </li>
                         <li>
                             <i class="bx bx-chevron-right"></i>
-                            <a href="services.php">App Developmentt</a>
+                            <a href="consultancy.php">App Developmentt</a>
                         </li>
                         <li>
                             <i class="bx bx-chevron-right"></i>
-                            <a href="services.php">IT Infrastructure & Security</a>
+                            <a href="consultancy.php">IT Infrastructure & Security</a>
                         </li>
                         <li>
-                            <i class="bx bx-chevron-right"></i> <a href="#">Enterprise Business Solutions
+                            <i class="bx bx-chevron-right"></i> <a href="consultancy.php">Enterprise Business Solutions
                             </a>
                         </li>
 

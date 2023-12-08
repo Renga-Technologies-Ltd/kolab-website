@@ -45,12 +45,12 @@
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
             animation: fadeIn 3s ease-in-out forwards;
         }
+</style>
+
        
   </style>
 </head>
-
 <body>
-
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex justify-content-between align-items-center">
       <div class="logo">
@@ -138,7 +138,7 @@
 <body>
 
     <div class="image-container">
-        <div class="overlay-text">IT consultancy</div>
+        <div class="overlay-text">SERVICES</div>
     </div>
     
     </main>
@@ -231,7 +231,7 @@
 
 <div class="cards-container">
   <div class="card">
-    <img src="./assets/img/network management.jpg" viewBox="0 0 24 24" class="card__image">
+    <img src="./assets/img/NETWORK I.JPG" viewBox="0 0 24 24" class="card__image">
     <div class="card__content">
       <p class="card__title">Network Infrastructure Management</p>
       <p class="card__description">Ensure seamless connectivity and optimal performance with our network infrastructure management services. We design, implement, and maintain robust network solutions tailored to your business requirements. From hardware setup to ongoing monitoring, we've got your network covered.</p>
@@ -275,6 +275,7 @@
       left: 10PX;
       margin: auto;
       margin-top: 5%;
+      margin-bottom: 2%;
       background-color: #f2f2f2;
       border-radius: 10px;
       justify-content: space-between;
@@ -335,7 +336,7 @@
 
 <div class="cards-container">
   <div class="card">
-    <img src="./assets/img/IT Project Management.png" viewBox="0 0 24 24" class="card__image">
+    <img src="./assets/img/project.WEBP" viewBox="0 0 24 24" class="card__image">
     <div class="card__content">
       <p class="card__title">IT Project Management</p>
       <p class="card__description">Ensure the successful execution of your IT initiatives with our project management expertise. We guide you through the entire project lifecycle, from planning and execution to monitoring and completion. Our goal is to deliver projects on time, within budget, and exceeding expectations.</p>
@@ -351,13 +352,37 @@
   </div>
 
   <div class="card">
-    <img src="./assets/img/IT Consulting and Advisory.JPG" viewBox="0 0 24 24" class="card__image">
+    <img src="./assets/img/ERP.JFIF" viewBox="0 0 24 24" class="card__image">
     <div class="card__content">
-      <p class="card__title">IT Consulting and Advisory</p>
-      <p class="card__description">Leverage our industry insights and experience for strategic IT consulting. Whether you're planning a digital transformation, evaluating new technologies, or seeking advice on IT governance, our consultants provide actionable recommendations to drive your business forward.</p>
+      <p class="card__title">ERP (Enterprise Resource Planning)</p>
+      <p class="card__description">Streamline your business operations with our comprehensive ERP services. Our team designs, implements, and maintains robust ERP systems custom-tailored to meet the unique demands of your business. From initial setup of hardware infrastructure to continuous monitoring and support, we provide end-to-end ERP services to ensure your business processes run efficiently and effectively.</p>
     </div>
   </div>
 </div>
-  
-    
+
+
+<!-- ======= Footer ======= -->
+<?php
+  include('common/footer.php');
+  ?>
+<!-- End Footer -->
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+
+<!--  Main JS File -->
+<script src="assets/js/main.js"></script>
+</body>
+
+</html>
+
     

@@ -276,7 +276,7 @@
             <div class="card-body">
               <h5 class="card-title">${service.name}</h5>
               <p class="card-text">${service.description}</p>
-              <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+              <div class="read-more"><a href="consultancy.php"><i class="bi bi-arrow-right"></i> Read More</a></div>
             </div>
           </div>
         </div>

@@ -2510,7 +2510,7 @@ section {
 .custom-form button[type="submit"]:focus {
   background: rgb(33, 194, 33);
   border-color: transparent;
-  box-shadow: 0 0 20px #fffff;
+  box-shadow: 0 0 20px #ffff;
 }
 button:active {
   background-color: #3d94cf;
@@ -2519,4 +2519,6 @@ button:active {
   box-shadow: none;
   transform: scale(0.98);
 }
-
+/* Background styling for consultancy page */
+#consultancy-page {
+}

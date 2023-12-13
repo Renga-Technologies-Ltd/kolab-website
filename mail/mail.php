@@ -30,7 +30,8 @@ $mail->Password = "noreply@123";
 $mail->setFrom("noreply@kolab.ae", "Kolab");
 $mail->addAddress($email, $name);
 $mail->Subject = "Message From Kolab Website";
-$mail->Body = 'Thank you for showing interest in our products, we will contact you to schedule a demo';
+$htmlTemplate = file_get_contents('C:\xampp\htdocs\kolab\kolab-website\emailtemplate.php');
+$mail->msgHTML($htmlTemplate);
 $mail->send();
 
 // Send the mail 

@@ -257,7 +257,6 @@
 </body>
 </html>
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -266,7 +265,7 @@
   <style>
     .cards-container {
       display: flex;
-      justify-content: space-between; /* You can use other values like space-around or space-evenly if needed */
+      justify-content: space-between; 
     }
 
     .card {

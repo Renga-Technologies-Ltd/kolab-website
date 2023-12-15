@@ -20,14 +20,54 @@ if ($conn->connect_error) {
 $sql = "INSERT INTO subscribers (Email) VALUES ('$email')";
 
 if ($conn->query($sql) === TRUE) {
-    echo "New record created successfully";
-
-    // Redirect to index.php after a short delay 
-    echo "<script>setTimeout(function(){ window.location.href = 'index.php'; }, 1000);</script>";
+    $message = "Thank you! You have successfully subscribed to our newsletter.";
 } else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+    $message = "Error: " . $sql . "<br>" . $conn->error;
 }
 
 // Close the database connection
 $conn->close();
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .popup-card {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: #f8f8f8;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+        .thank-you-message {
+            color: #713998;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="popup-card">
+    <p class="thank-you-message"><?php echo $message; ?></p>
+</div>
+<script>
+    // Redirect to index.php after a short delay 
+    setTimeout(function() {
+        window.location.href = 'index.php';
+    }, 2000);
+</script>
+
+</body>
+</html>

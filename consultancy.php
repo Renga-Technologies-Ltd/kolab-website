@@ -257,7 +257,6 @@
 </body>
 </html>
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -266,7 +265,7 @@
   <style>
     .cards-container {
       display: flex;
-      justify-content: space-between; /* You can use other values like space-around or space-evenly if needed */
+      justify-content: space-between; 
     }
 
     .card {
@@ -355,12 +354,106 @@
     <img src="./assets/img/ERP.JFIF" viewBox="0 0 24 24" class="card__image">
     <div class="card__content">
       <p class="card__title">ERP (Enterprise Resource Planning)</p>
-      <p class="card__description">Streamline your business operations with our comprehensive ERP services. Our team designs, implements, and maintains robust ERP systems custom-tailored to meet the unique demands of your business. From initial setup of hardware infrastructure to continuous monitoring and support, we provide end-to-end ERP services to ensure your business processes run efficiently and effectively.</p>
+      <p class="card__description">We specialize in designing, implementing, and maintaining robust ERP systems, addressing the specific needs of your business. From initial hardware infrastructure setup to ongoing monitoring and support, our end-to-end services ensure the seamless and efficient operation of your business processes.</p>
     </div>
   </div>
 </div>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .cards-container {
+      display: flex;
+      justify-content: space-between; 
+    }
 
+    .card {
+      width: 400px;
+      height: 280;
+      left: 10PX;
+      margin: auto;
+      margin-top: 5%;
+      margin-bottom: 2%;
+      background-color: #f2f2f2;
+      border-radius: 10px;
+      justify-content: space-between;
+      flex: wrap;
+      overflow: hidden;
+      perspective: 1000px;
+      box-shadow: 0 0 0 5px #ffffff80;
+      transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    
+    }
+
+    .card__image {
+      width: 400px;
+      height: 250px;
+    }
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+.card__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+    .card__content {
+      padding: 15px;
+    }
+    .card:hover .card__content {
+  transform: rotateX(0deg);
+}
+.card__title {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+  font-weight: 700;
+}
+.card:hover svg {
+  scale: 0;
+}
+.card__description {
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #777;
+  line-height: 1.4;
+}
+    /* Add additional styling as needed */
+  </style>
+</head>
+<body>
+
+<div class="cards-container">
+  <div class="card">
+    <img src="./assets/img/consulting.jpg" viewBox="0 0 24 24" class="card__image">
+    <div class="card__content">
+      <p class="card__title">IT Consulting</p>
+      <p class="card__description">Achieve IT success with our specialized project management consultancy. We lead your initiatives by offering comprehensive guidance across the project lifecycle, ensuring a smooth journey from planning and execution to meticulous monitoring and successful completion.</p>
+    </div>
+  </div>
+
+  
+   
+
+  
+    <div class="card__content">
+      <p class="card__title">ERP (Enterprise Resource Planning)</p>
+      <p class="card__description">Streamline your business operations with our comprehensive ERP services. Our team designs, implements, and maintains robust ERP systems custom-tailored to meet the unique demands of your business. From initial setup of hardware infrastructure to continuous monitoring and support, we provide end-to-end ERP services to ensure your business processes run efficiently and effectively.</p>
+    </div>
+  </div>
+</div>
 <!-- ======= Footer ======= -->
 <?php
   include('common/footer.php');

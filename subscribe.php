@@ -35,10 +35,14 @@ $conn->close();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        body {
+    background: url("/kolab/img/dribbble-shot_6.gif");
+}
         .popup-card {
             position: fixed;
             top: 50%;
             left: 50%;
+            border-radius: 20px;
             transform: translate(-50%, -50%);
             padding: 20px;
             background-color: #f8f8f8;
@@ -49,12 +53,14 @@ $conn->close();
             width: 100%;
             text-align: center;
         }
+
         .thank-you-message {
             color: #713998;
             font-size: 18px;
             font-weight: bold;
             margin-bottom: 10px;
         }
+
     </style>
 </head>
 <body>
@@ -66,8 +72,9 @@ $conn->close();
     // Redirect to index.php after a short delay 
     setTimeout(function() {
         window.location.href = 'index.php';
-    }, 2000);
+    }, 3000);
 </script>
 
 </body>
 </html>
+

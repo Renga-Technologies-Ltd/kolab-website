@@ -27,7 +27,6 @@
       width: 100px;
       height: 100px;
       object-fit: contain;
-      /* Ensures the image fits within the specified width and height without stretching */
     }
     #main {
     position: relative;
@@ -163,7 +162,7 @@
   <style>
     .cards-container {
       display: flex;
-      justify-content: space-between; /* You can use other values like space-around or space-evenly if needed */
+      justify-content: space-between; 
     }
 
     .card {

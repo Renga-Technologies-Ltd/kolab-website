@@ -34,17 +34,22 @@ $htmlTemplate = file_get_contents('C:\xampp\htdocs\kolab\kolab-website\emailtemp
 $mail->msgHTML($htmlTemplate);
 $mail->send();
 
+
 // Send the mail 
 if (!$mail->send()) {
     // Failure
-    echo 'Message could not be sent'. $mail->ErrorInfo;
-    echo "<script>alert('Message could not be sent.!')</script>";
+    $errorMessage = 'Message could not be sent. ' . $mail->ErrorInfo;
+    echo "<script>alert('$errorMessage');</script>";
 } else {
-    // Success
-    echo "<script>alert('Your message has been sent successfully!')</script>";
-}
+    // Assuming the email was sent successfully
+    echo "<script>alert('Your message has been sent successfully!');</script>";
 
-// Redirect regardless of success or failure
-header("Location: ../index.php");
-exit; // Ensure that no more code is executed after the redirect
+    // Redirect to index.php after a short delay with a success message
+    echo "<script>
+            setTimeout(function(){
+                window.location.href = '../index.php?status=success';
+            }, 1000);
+          </script>";
+}
+exit;
 ?>

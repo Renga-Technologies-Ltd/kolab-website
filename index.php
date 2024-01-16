@@ -10,22 +10,21 @@
   <meta content="" name="keywords" />
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon" />
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+  <link href="./assets/img/favicon.png" rel="icon" />
+  <link href="./assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet" />
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-
-  <link href="assets/css/style.css" rel="stylesheet" />
+  <link href="./assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+  <link href="./assets/vendor/aos/aos.css" rel="stylesheet" />
+  <link href="./assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="./assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="./assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+  <link href="./assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="./assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <link href="./assets/css/style.css" rel="stylesheet" />
   <style>
     .client-logo {
       width: 100px;
@@ -46,14 +45,14 @@
           <a href="index.php"><span>Kolab</span></a>
         </h1>
         <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.php"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+        <!-- <a href="index.php"><img src="./assets/img/logo.png" alt="" class="img-fluid"></a> -->
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="btn-get-started animate__animated animate__fadeInUp active" href="index.php">Home</a></li>
-          <a href="About.php" class="btn-get-started animate__animated animate__fadeInUp">About</a>
-          <a href="Services.php" class="btn-get-started animate__animated animate__fadeInUp">Services</a>
+          <a href="about.php" class="btn-get-started animate__animated animate__fadeInUp">About</a>
+          <a href="services.php" class="btn-get-started animate__animated animate__fadeInUp">Services</a>
           <a href="contact.php" class="btn-get-started animate__animated animate__fadeInUp">Contact Us</a>
           <div class="d-none d-lg-block ms-lg-3">
             <a class="btn custom-btn custom-border-btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Book a Demo</a>
@@ -240,7 +239,7 @@
 
         <div class="row" data-aos="fade-up">
           <div class="col-md-5">
-            <img src="assets/img/features-1.svg" class="img-fluid" alt="" />
+            <img src="./assets/img/features-1.svg" class="img-fluid" alt="" />
           </div>
           <div class="col-md-7 pt-4">
             <h3>Our team</h3>
@@ -263,7 +262,7 @@
 
         <div class="row" data-aos="fade-up">
           <div class="col-md-5 order-1 order-md-2">
-            <img src="assets/img/features-2.svg" class="img-fluid" alt="" />
+            <img src="./assets/img/features-2.svg" class="img-fluid" alt="" />
           </div>
           <div class="col-md-7 pt-5 order-2 order-md-1">
             <!-- <h3>Corporis temporibus maiores provident</h3> -->
@@ -297,45 +296,45 @@
         <div class="row no-gutters">
 
           <div class="col-lg-2 box">
-            <img src="./assets/img/partners/alfresco_logo.fw_.png" alt="alfresco" class="client-logo">
+            <img src="././assets/img/partners/alfresco_logo.fw_.png" alt="alfresco" class="client-logo">
           </div>
 
           <div class="col-lg-2 box">
-            <img src="./assets/img/partners/botpress-logo.png" alt="botpress" class="client-logo">
+            <img src="././assets/img/partners/botpress-logo.png" alt="botpress" class="client-logo">
           </div>
 
           <div class="col-lg-2 box">
-            <img src="./assets/img/partners/Dell_Logo.png" alt="Dell" class="Dell">
+            <img src="././assets/img/partners/Dell_Logo.png" alt="Dell" class="Dell">
           </div>
           <div class="col-lg-2 box">
-            <img src="./assets/img/partners/erpnext-logo-blue-v2.png" alt="ERP next" class="client-logo">
+            <img src="././assets/img/partners/erpnext-logo-blue-v2.png" alt="ERP next" class="client-logo">
           </div>
           <div class="col-lg-2 box">
-            <img src="./assets/img/partners/HP-Logo.png" alt="HP" class="client-logo">
+            <img src="././assets/img/partners/HP-Logo.png" alt="HP" class="client-logo">
           </div>
           <div class="col-lg-2 box">
-            <img src="./assets/img/partners/instasafe-1.png" alt="InstaSafe" class="client-logo">
+            <img src="././assets/img/partners/instasafe-1.png" alt="InstaSafe" class="client-logo">
           </div>
           <div class="col-lg-2 box">
-            <img src="./assets/img/partners/mifos-logo.png" alt="MIFOS" class="client-logo">
+            <img src="././assets/img/partners/mifos-logo.png" alt="MIFOS" class="client-logo">
           </div>
           <div class="col-lg-2 box">
-            <img src="./assets/img/partners/odoo.png" alt="Odoo" class="client-logo">
+            <img src="././assets/img/partners/odoo.png" alt="Odoo" class="client-logo">
           </div>
           <!-- <div class="col-lg-2 box">
-            <img src="./assets/img/partners/Sap-B1-Logo-png.png" alt="SAP one" class="client-logo">
+            <img src="././assets/img/partners/Sap-B1-Logo-png.png" alt="SAP one" class="client-logo">
           </div> -->
           <div class="col-lg-2 box">
-            <img src="./assets/img/partners/Seceon-Logo-no-white-outline-1.png" alt="Seceon" class="client-logo">
+            <img src="././assets/img/partners/Seceon-Logo-no-white-outline-1.png" alt="Seceon" class="client-logo">
           </div>
           <div class="col-lg-2 box">
-            <img src="./assets/img/partners/social_posts_logo.png" alt="Scale" class="client-logo">
+            <img src="././assets/img/partners/social_posts_logo.png" alt="Scale" class="client-logo">
           </div>
           <div class="col-lg-2 box">
-            <img src="./assets/img/partners/Stratroom-1-1.png" alt="Stratroom" class="client-logo">
+            <img src="././assets/img/partners/Stratroom-1-1.png" alt="Stratroom" class="client-logo">
           </div>
           <div class="col-lg-2 box">
-            <img src="./assets/img/partners/veeam-backup-and-replication.png" alt="Stratroom" class="client-logo">
+            <img src="././assets/img/partners/veeam-backup-and-replication.png" alt="Stratroom" class="client-logo">
           </div>
           <!-- Add more client logos as needed -->
 
@@ -356,17 +355,17 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="./assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="./assets/vendor/aos/aos.js"></script>
+  <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="./assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="./assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="./assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="./assets/vendor/php-email-form/validate.js"></script>
 
   <!--  Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="./assets/js/main.js"></script>
 </body>
 
 </html>

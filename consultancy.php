@@ -8,20 +8,20 @@
   <title>consultancy - Kolab </title>
   <meta content="" name="description" />
   <meta content="" name="keywords" />
-  <link href="assets/img/favicon.png" rel="icon" />
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+  <link href="./assets/img/favicon.png" rel="icon" />
+  <link href="./assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet" />
 
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <link href="./assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+  <link href="./assets/vendor/aos/aos.css" rel="stylesheet" />
+  <link href="./assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="./assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="./assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+  <link href="./assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="./assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <link href="assets/css/style.css" rel="stylesheet" />
+  <link href="./assets/css/style.css" rel="stylesheet" />
   <style>
     .client-logo {
       width: 100px;
@@ -57,14 +57,14 @@
           <a href="index.php"><span>Kolab</span></a>
         </h1>
         <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.php"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <!-- <a href="index.php"><img src="./assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
         <li><a class="" href="index.php">Home</a></li>
           <a href="about.php" class="">About</a>
-          <a href="Services.php" class="">Services</a>
+          <a href="services.php" class="">Services</a>
 
           <a href="contact.php" class="">Contact Us</a>
           <div class="d-none d-lg-block ms-lg-3">
@@ -131,7 +131,7 @@
 
   <main id="main">
     <div class="col-lg-6">
-        <img src="./assets/img/Proxy_Server.webp" alt="OUR SERVICES" width="1367" height="300">
+        <img src="././assets/img/Proxy_Server.webp" alt="OUR SERVICES" width="1367" height="300">
     </div>
 </head>
 <body>
@@ -143,14 +143,14 @@
     </main>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="./assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="./assets/vendor/aos/aos.js"></script>
+  <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="./assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="./assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="./assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="./assets/vendor/php-email-form/validate.js"></script>
 
 </body>
 
@@ -230,7 +230,7 @@
 
 <div class="cards-container">
   <div class="card">
-    <img src="./assets/img/NETWORK I.JPG" viewBox="0 0 24 24" class="card__image">
+    <img src="././assets/img/NETWORK I.JPG" viewBox="0 0 24 24" class="card__image">
     <div class="card__content">
       <p class="card__title">Network Infrastructure Management</p>
       <p class="card__description">Ensure seamless connectivity and optimal performance with our network infrastructure management services. We design, implement, and maintain robust network solutions tailored to your business requirements. From hardware setup to ongoing monitoring, we've got your network covered.</p>
@@ -238,15 +238,15 @@
   </div>
 
   <div class="card">
-    <img src="./assets/img/123.png" viewBox="0 0 24 24" class="card__image">
+    <img src="././assets/img/123.png" viewBox="0 0 24 24" class="card__image">
     <div class="card__content">
       <p class="card__title">Cybersecurity Solutions</p>
-      <p class="card__description">Safeguard your digital assets with our advanced cybersecurity solutions. Our experts assess vulnerabilities, implement robust security protocols, and provide ongoing monitoring to protect your business from evolving cyber threats. Trust us to keep your data secure and compliant.</p>
+      <p class="card__description">Safeguard your digital ./assets with our advanced cybersecurity solutions. Our experts assess vulnerabilities, implement robust security protocols, and provide ongoing monitoring to protect your business from evolving cyber threats. Trust us to keep your data secure and compliant.</p>
     </div>
   </div>
 
   <div class="card">
-    <img src="./assets/img/Cloud Computing Services.JPG" viewBox="0 0 24 24" class="card__image">
+    <img src="././assets/img/Cloud Computing Services.JPG" viewBox="0 0 24 24" class="card__image">
     <div class="card__content">
       <p class="card__title">Cloud Computing Services</p>
       <p class="card__description">Unlock the full potential of cloud computing with our specialized services. Whether you're considering a migration to the cloud, need assistance with cloud strategy, or require ongoing support, we have the expertise to optimize your cloud environment for efficiency and scalability.</p>
@@ -334,7 +334,7 @@
 
 <div class="cards-container">
   <div class="card">
-    <img src="./assets/img/project.WEBP" viewBox="0 0 24 24" class="card__image">
+    <img src="././assets/img/project.WEBP" viewBox="0 0 24 24" class="card__image">
     <div class="card__content">
       <p class="card__title">IT Project Management</p>
       <p class="card__description">Ensure the successful execution of your IT initiatives with our project management expertise. We guide you through the entire project lifecycle, from planning and execution to monitoring and completion. Our goal is to deliver projects on time, within budget, and exceeding expectations.</p>
@@ -342,7 +342,7 @@
   </div>
 
   <div class="card">
-    <img src="./assets/img/software.jpg" viewBox="0 0 24 24" class="card__image">
+    <img src="././assets/img/software.jpg" viewBox="0 0 24 24" class="card__image">
     <div class="card__content">
       <p class="card__title">Custom Software Development</p>
       <p class="card__description">Drive innovation with our custom software development services. We create tailored solutions to address your specific business challenges. From web applications to mobile solutions, our development team delivers high-quality, scalable software that aligns with your strategic goals.</p>
@@ -350,7 +350,7 @@
   </div>
 
   <div class="card">
-    <img src="./assets/img/ERP.JFIF" viewBox="0 0 24 24" class="card__image">
+    <img src="././assets/img/ERP.JFIF" viewBox="0 0 24 24" class="card__image">
     <div class="card__content">
       <p class="card__title">ERP (Enterprise Resource Planning)</p>
       <p class="card__description">We specialize in designing, implementing, and maintaining robust ERP systems, addressing the specific needs of your business. From initial hardware infrastructure setup to ongoing monitoring and support, our end-to-end services ensure the seamless and efficient operation of your business processes.</p>
@@ -436,7 +436,7 @@
 
 <div class="cards-container">
   <div class="card">
-    <img src="./assets/img/consulting.jpg" viewBox="0 0 24 24" class="card__image">
+    <img src="././assets/img/consulting.jpg" viewBox="0 0 24 24" class="card__image">
     <div class="card__content">
       <p class="card__title">IT Consulting</p>
       <p class="card__description">Achieve IT success with our specialized project management consultancy. We lead your initiatives by offering comprehensive guidance across the project lifecycle, ensuring a smooth journey from planning and execution to meticulous monitoring and successful completion.</p>
@@ -462,17 +462,17 @@
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
 <!-- Vendor JS Files -->
-<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-<script src="assets/vendor/aos/aos.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="./assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="./assets/vendor/aos/aos.js"></script>
+<script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="./assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="./assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="./assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="./assets/vendor/waypoints/noframework.waypoints.js"></script>
+<script src="./assets/vendor/php-email-form/validate.js"></script>
 
 <!--  Main JS File -->
-<script src="assets/js/main.js"></script>
+<script src="./assets/js/main.js"></script>
 </body>
 
 </html>

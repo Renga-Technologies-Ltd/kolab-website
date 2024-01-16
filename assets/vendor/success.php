@@ -58,24 +58,24 @@
 
 
 <div class="card">
-  <img src="./assets/img/network management.jpg" viewBox="0 0 24 24"class="card__image">
+  <img src="././assets/img/network management.jpg" viewBox="0 0 24 24"class="card__image">
   <div class="card__content">
     <p class="card__title"> Network Infrastructure Management</p>
     <p class="card__description">Ensure seamless connectivity and optimal performance with our network infrastructure management services. We design, implement, and maintain robust network solutions tailored to your business requirements. From hardware setup to ongoing monitoring, we've got your network covered.</p>
   </div>
 </div>
 <div class="card">
-  <img src="./assets/img/123.png" viewBox="0 0 24 24"class="card__image">
+  <img src="././assets/img/123.png" viewBox="0 0 24 24"class="card__image">
   <div class="card__content">
     <p class="card__title"> Cybersecurity Solutions</p>
-    <p class="card__description">Safeguard your digital assets with our advanced cybersecurity solutions. Our experts assess vulnerabilities, implement robust security protocols, and provide ongoing monitoring to protect your business from evolving cyber threats. Trust us to keep your data secure and compliant.</p>
+    <p class="card__description">Safeguard your digital ./assets with our advanced cybersecurity solutions. Our experts assess vulnerabilities, implement robust security protocols, and provide ongoing monitoring to protect your business from evolving cyber threats. Trust us to keep your data secure and compliant.</p>
   </div>
 </div>
 <div class="card">
-  <img src="./assets/img/123.png" viewBox="0 0 24 24"class="card__image">
+  <img src="././assets/img/123.png" viewBox="0 0 24 24"class="card__image">
   <div class="card__content">
     <p class="card__title"> Custom Software Development</p>
-    <p class="card__description">Safeguard your digital assets with our advanced cybersecurity solutions. Our experts assess vulnerabilities, implement robust security protocols, and provide ongoing monitoring to protect your business from evolving cyber threats. Trust us to keep your data secure and compliant.</p>
+    <p class="card__description">Safeguard your digital ./assets with our advanced cybersecurity solutions. Our experts assess vulnerabilities, implement robust security protocols, and provide ongoing monitoring to protect your business from evolving cyber threats. Trust us to keep your data secure and compliant.</p>
   </div>
 </div>
 <style>
@@ -222,7 +222,7 @@
 
 <div class="cards-container">
   <div class="card">
-    <img src="./assets/img/network management.jpg" viewBox="0 0 24 24" class="card__image">
+    <img src="././assets/img/network management.jpg" viewBox="0 0 24 24" class="card__image">
     <div class="card__content">
       <p class="card__title">Network Infrastructure Management</p>
       <p class="card__description">Ensure seamless connectivity and optimal performance with our network infrastructure management services. We design, implement, and maintain robust network solutions tailored to your business requirements. From hardware setup to ongoing monitoring, we've got your network covered.</p>
@@ -230,18 +230,18 @@
   </div>
 
   <div class="card">
-    <img src="./assets/img/123.png" viewBox="0 0 24 24" class="card__image">
+    <img src="././assets/img/123.png" viewBox="0 0 24 24" class="card__image">
     <div class="card__content">
       <p class="card__title">Cybersecurity Solutions</p>
-      <p class="card__description">Safeguard your digital assets with our advanced cybersecurity solutions. Our experts assess vulnerabilities, implement robust security protocols, and provide ongoing monitoring to protect your business from evolving cyber threats. Trust us to keep your data secure and compliant.</p>
+      <p class="card__description">Safeguard your digital ./assets with our advanced cybersecurity solutions. Our experts assess vulnerabilities, implement robust security protocols, and provide ongoing monitoring to protect your business from evolving cyber threats. Trust us to keep your data secure and compliant.</p>
     </div>
   </div>
 
   <div class="card">
-    <img src="./assets/img/123.png" viewBox="0 0 24 24" class="card__image">
+    <img src="././assets/img/123.png" viewBox="0 0 24 24" class="card__image">
     <div class="card__content">
       <p class="card__title">Custom Software Development</p>
-      <p class="card__description">Safeguard your digital assets with our advanced cybersecurity solutions. Our experts assess vulnerabilities, implement robust security protocols, and provide ongoing monitoring to protect your business from evolving cyber threats. Trust us to keep your data secure and compliant.</p>
+      <p class="card__description">Safeguard your digital ./assets with our advanced cybersecurity solutions. Our experts assess vulnerabilities, implement robust security protocols, and provide ongoing monitoring to protect your business from evolving cyber threats. Trust us to keep your data secure and compliant.</p>
     </div>
   </div>
 </div>

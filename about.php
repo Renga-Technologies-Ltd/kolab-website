@@ -8,20 +8,20 @@
   <title>About - Kolab </title>
   <meta content="" name="description" />
   <meta content="" name="keywords" />
-  <link href="assets/img/favicon.png" rel="icon" />
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+  <link href="./assets/img/favicon.png" rel="icon" />
+  <link href="./assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet" />
 
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <link href="./assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+  <link href="./assets/vendor/aos/aos.css" rel="stylesheet" />
+  <link href="./assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="./assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="./assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+  <link href="./assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="./assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <link href="assets/css/style.css" rel="stylesheet" />
+  <link href="./assets/css/style.css" rel="stylesheet" />
   <style>
     .client-logo {
       width: 100px;
@@ -41,14 +41,14 @@
           <a href="index.php"><span>Kolab</span></a>
         </h1>
         <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.php"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <!-- <a href="index.php"><img src="./assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
         <li><a class="" href="index.php">Home</a></li>
-          <a href="About.php" class="btn-get-started animate__animated animate__fadeInUp active">About</a>
-          <a href="Services.php" class="">Services</a>
+          <a href="about.php" class="btn-get-started animate__animated animate__fadeInUp active">About</a>
+          <a href="services.php" class="">Services</a>
 
           <a href="contact.php" class="">Contact Us</a>
 
@@ -129,7 +129,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <img src="./assets/img/kolab-about.jpg" class="img-fluid" alt="" />
+            <img src="././assets/img/kolab-about.jpg" class="img-fluid" alt="" />
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <h2>
@@ -202,27 +202,27 @@
         <div class="row no-gutters">
 
           <div class="col-lg-2 box">
-            <img src="./assets/img/clients/sos.fw_.png" alt="NCC Rwanda" class="client-logo">
+            <img src="././assets/img/clients/sos.fw_.png" alt="NCC Rwanda" class="client-logo">
           </div>
 
           <div class="col-lg-2 box">
-            <img src="./assets/img/clients/psc.png" alt="Parliamentary Sercvice Commision Kenya" class="client-logo">
+            <img src="././assets/img/clients/psc.png" alt="Parliamentary Sercvice Commision Kenya" class="client-logo">
           </div>
 
           <div class="col-lg-2 box">
-            <img src="./assets/img/clients/zawadi.png" alt="Zawadi Kenya" class="client-logo">
+            <img src="././assets/img/clients/zawadi.png" alt="Zawadi Kenya" class="client-logo">
           </div>
           <div class="col-lg-2 box">
-            <img src="./assets/img/clients/logo-1-2048x345.png" alt="Zawadi Kenya" class="client-logo">
+            <img src="././assets/img/clients/logo-1-2048x345.png" alt="Zawadi Kenya" class="client-logo">
           </div>
           <div class="col-lg-2 box">
-            <img src="./assets/img/clients/logo-worldbank.png" alt="Zawadi Kenya" class="client-logo">
+            <img src="././assets/img/clients/logo-worldbank.png" alt="Zawadi Kenya" class="client-logo">
           </div>
           <div class="col-lg-2 box">
-            <img src="./assets/img/clients/pfcgl.fw_.png" alt="Zawadi Kenya" class="client-logo">
+            <img src="././assets/img/clients/pfcgl.fw_.png" alt="Zawadi Kenya" class="client-logo">
           </div>
           <div class="col-lg-2 box">
-            <img src="./assets/img/clients/rca.png" alt="Rwanda Cooperative Agency" class="client-logo">
+            <img src="././assets/img/clients/rca.png" alt="Rwanda Cooperative Agency" class="client-logo">
           </div>
 
           <!-- Add more client logos as needed -->
@@ -248,7 +248,7 @@
         <div class="testimonials-carousel swiper">
           <div class="swiper-wrapper">
             <div class="testimonial-item swiper-slide">
-              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="" />
+              <img src="./assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="" />
               <h3>Saul Goodman</h3>
               <h4>Ceo &amp; Founder</h4>
               <p>
@@ -262,7 +262,7 @@
             </div>
 
             <div class="testimonial-item swiper-slide">
-              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="" />
+              <img src="./assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="" />
               <h3>Sara Wilsson</h3>
               <h4>Designer</h4>
               <p>
@@ -276,7 +276,7 @@
             </div>
 
             <div class="testimonial-item swiper-slide">
-              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="" />
+              <img src="./assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="" />
               <h3>Jena Karlis</h3>
               <h4>Store Owner</h4>
               <p>
@@ -289,7 +289,7 @@
             </div>
 
             <div class="testimonial-item swiper-slide">
-              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="" />
+              <img src="./assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="" />
               <h3>Matt Brandon</h3>
               <h4>Freelancer</h4>
               <p>
@@ -303,7 +303,7 @@
             </div>
 
             <div class="testimonial-item swiper-slide">
-              <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="" />
+              <img src="./assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="" />
               <h3>John Larson</h3>
               <h4>Entrepreneur</h4>
               <p>
@@ -333,17 +333,17 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="./assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="./assets/vendor/aos/aos.js"></script>
+  <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="./assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="./assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="./assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="./assets/vendor/php-email-form/validate.js"></script>
 
   <!--  Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="./assets/js/main.js"></script>
 </body>
 
 </html>

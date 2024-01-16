@@ -9,8 +9,8 @@
     <meta content="" name="keywords" />
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="./assets/img/favicon.png" rel="icon" />
+    <link href="./assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
     <!-- Google Fonts -->
     <link
@@ -19,25 +19,25 @@
     />
 
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="./assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+    <link href="./assets/vendor/aos/aos.css" rel="stylesheet" />
     <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      href="./assets/vendor/bootstrap/css/bootstrap.min.css"
       rel="stylesheet"
     />
     <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      href="./assets/vendor/bootstrap-icons/bootstrap-icons.css"
       rel="stylesheet"
     />
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="./assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
     <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
+      href="./assets/vendor/glightbox/css/glightbox.min.css"
       rel="stylesheet"
     />
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="./assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
     <!--  Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -49,7 +49,7 @@
             <a href="index.php"><span>Kolab</span></a>
           </h1>
           <!-- Uncomment below if you prefer to use an image logo -->
-          <!-- <a href="index.php"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+          <!-- <a href="index.php"><img src="./assets/img/logo.png" alt="" class="img-fluid"></a>-->
         </div>
 
         <nav id="navbar" class="navbar">
@@ -104,7 +104,7 @@
             <div class="col-lg-4 col-md-6 portfolio-wrap filter-app">
               <div class="portfolio-item">
                 <img
-                  src="assets/img/portfolio/portfolio-1.jpg"
+                  src="./assets/img/portfolio/portfolio-1.jpg"
                   class="img-fluid"
                   alt=""
                 />
@@ -112,7 +112,7 @@
                   <h3>App 1</h3>
                   <div>
                     <a
-                      href="assets/img/portfolio/portfolio-1.jpg"
+                      href="./assets/img/portfolio/portfolio-1.jpg"
                       data-gallery="portfolioGallery"
                       class="portfolio-lightbox"
                       title="App 1"
@@ -129,7 +129,7 @@
             <div class="col-lg-4 col-md-6 portfolio-wrap filter-web">
               <div class="portfolio-item">
                 <img
-                  src="assets/img/portfolio/portfolio-2.jpg"
+                  src="./assets/img/portfolio/portfolio-2.jpg"
                   class="img-fluid"
                   alt=""
                 />
@@ -137,7 +137,7 @@
                   <h3>Web 3</h3>
                   <div>
                     <a
-                      href="assets/img/portfolio/portfolio-2.jpg"
+                      href="./assets/img/portfolio/portfolio-2.jpg"
                       data-gallery="portfolioGallery"
                       class="portfolio-lightbox"
                       title="Web 3"
@@ -154,7 +154,7 @@
             <div class="col-lg-4 col-md-6 portfolio-wrap filter-app">
               <div class="portfolio-item">
                 <img
-                  src="assets/img/portfolio/portfolio-3.jpg"
+                  src="./assets/img/portfolio/portfolio-3.jpg"
                   class="img-fluid"
                   alt=""
                 />
@@ -162,7 +162,7 @@
                   <h3>App 2</h3>
                   <div>
                     <a
-                      href="assets/img/portfolio/portfolio-3.jpg"
+                      href="./assets/img/portfolio/portfolio-3.jpg"
                       data-gallery="portfolioGallery"
                       class="portfolio-lightbox"
                       title="App 2"
@@ -179,7 +179,7 @@
             <div class="col-lg-4 col-md-6 portfolio-wrap filter-card">
               <div class="portfolio-item">
                 <img
-                  src="assets/img/portfolio/portfolio-4.jpg"
+                  src="./assets/img/portfolio/portfolio-4.jpg"
                   class="img-fluid"
                   alt=""
                 />
@@ -187,7 +187,7 @@
                   <h3>Card 2</h3>
                   <div>
                     <a
-                      href="assets/img/portfolio/portfolio-4.jpg"
+                      href="./assets/img/portfolio/portfolio-4.jpg"
                       data-gallery="portfolioGallery"
                       class="portfolio-lightbox"
                       title="Card 2"
@@ -204,7 +204,7 @@
             <div class="col-lg-4 col-md-6 portfolio-wrap filter-web">
               <div class="portfolio-item">
                 <img
-                  src="assets/img/portfolio/portfolio-5.jpg"
+                  src="./assets/img/portfolio/portfolio-5.jpg"
                   class="img-fluid"
                   alt=""
                 />
@@ -212,7 +212,7 @@
                   <h3>Web 2</h3>
                   <div>
                     <a
-                      href="assets/img/portfolio/portfolio-5.jpg"
+                      href="./assets/img/portfolio/portfolio-5.jpg"
                       data-gallery="portfolioGallery"
                       class="portfolio-lightbox"
                       title="Web 2"
@@ -229,7 +229,7 @@
             <div class="col-lg-4 col-md-6 portfolio-wrap filter-app">
               <div class="portfolio-item">
                 <img
-                  src="assets/img/portfolio/portfolio-6.jpg"
+                  src="./assets/img/portfolio/portfolio-6.jpg"
                   class="img-fluid"
                   alt=""
                 />
@@ -237,7 +237,7 @@
                   <h3>App 3</h3>
                   <div>
                     <a
-                      href="assets/img/portfolio/portfolio-6.jpg"
+                      href="./assets/img/portfolio/portfolio-6.jpg"
                       data-gallery="portfolioGallery"
                       class="portfolio-lightbox"
                       title="App 3"
@@ -254,7 +254,7 @@
             <div class="col-lg-4 col-md-6 portfolio-wrap filter-card">
               <div class="portfolio-item">
                 <img
-                  src="assets/img/portfolio/portfolio-7.jpg"
+                  src="./assets/img/portfolio/portfolio-7.jpg"
                   class="img-fluid"
                   alt=""
                 />
@@ -262,7 +262,7 @@
                   <h3>Card 1</h3>
                   <div>
                     <a
-                      href="assets/img/portfolio/portfolio-7.jpg"
+                      href="./assets/img/portfolio/portfolio-7.jpg"
                       data-gallery="portfolioGallery"
                       class="portfolio-lightbox"
                       title="Card 1"
@@ -279,7 +279,7 @@
             <div class="col-lg-4 col-md-6 portfolio-wrap filter-card">
               <div class="portfolio-item">
                 <img
-                  src="assets/img/portfolio/portfolio-8.jpg"
+                  src="./assets/img/portfolio/portfolio-8.jpg"
                   class="img-fluid"
                   alt=""
                 />
@@ -287,7 +287,7 @@
                   <h3>Card 3</h3>
                   <div>
                     <a
-                      href="assets/img/portfolio/portfolio-8.jpg"
+                      href="./assets/img/portfolio/portfolio-8.jpg"
                       data-gallery="portfolioGallery"
                       class="portfolio-lightbox"
                       title="Card 3"
@@ -304,7 +304,7 @@
             <div class="col-lg-4 col-md-6 portfolio-wrap filter-web">
               <div class="portfolio-item">
                 <img
-                  src="assets/img/portfolio/portfolio-9.jpg"
+                  src="./assets/img/portfolio/portfolio-9.jpg"
                   class="img-fluid"
                   alt=""
                 />
@@ -312,7 +312,7 @@
                   <h3>Web 1</h3>
                   <div>
                     <a
-                      href="assets/img/portfolio/portfolio-9.jpg"
+                      href="./assets/img/portfolio/portfolio-9.jpg"
                       data-gallery="portfolioGallery"
                       class="portfolio-lightbox"
                       title="Web 1"
@@ -465,16 +465,16 @@
     ></a>
 
     <!-- Vendor JS Files -->
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="./assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="./assets/vendor/aos/aos.js"></script>
+    <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="./assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="./assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="./assets/vendor/php-email-form/validate.js"></script>
 
     <!--  Main JS File -->
-    <script src="assets/js/main.js"></script>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
